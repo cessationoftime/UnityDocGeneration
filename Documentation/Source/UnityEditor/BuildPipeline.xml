@@ -1,0 +1,325 @@
+<Type Name="BuildPipeline" FullName="UnityEditor.BuildPipeline">
+  <TypeSignature Language="C#" Value="public sealed class BuildPipeline" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BuildPipeline ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundle">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundle (UnityEngine.Object mainAsset, UnityEngine.Object[] assets, string pathName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mainAsset" Type="UnityEngine.Object" />
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="pathName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mainAsset">To be added.</param>
+        <param name="assets">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundle">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundle (UnityEngine.Object mainAsset, UnityEngine.Object[] assets, string pathName, UnityEditor.BuildAssetBundleOptions assetBundleOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mainAsset" Type="UnityEngine.Object" />
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="pathName" Type="System.String" />
+        <Parameter Name="assetBundleOptions" Type="UnityEditor.BuildAssetBundleOptions" />
+      </Parameters>
+      <Docs>
+        <param name="mainAsset">To be added.</param>
+        <param name="assets">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <param name="assetBundleOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundle">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundle (UnityEngine.Object mainAsset, UnityEngine.Object[] assets, string pathName, UnityEditor.BuildAssetBundleOptions assetBundleOptions, UnityEditor.BuildTarget targetPlatform);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mainAsset" Type="UnityEngine.Object" />
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="pathName" Type="System.String" />
+        <Parameter Name="assetBundleOptions" Type="UnityEditor.BuildAssetBundleOptions" />
+        <Parameter Name="targetPlatform" Type="UnityEditor.BuildTarget" />
+      </Parameters>
+      <Docs>
+        <param name="mainAsset">To be added.</param>
+        <param name="assets">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <param name="assetBundleOptions">To be added.</param>
+        <param name="targetPlatform">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundle">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundle (UnityEngine.Object mainAsset, UnityEngine.Object[] assets, string pathName, UnityEditor.BuildAssetBundleOptions assetBundleOptions, UnityEditor.BuildTarget targetPlatform, UnityEditor.BuildOptions buildOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mainAsset" Type="UnityEngine.Object" />
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="pathName" Type="System.String" />
+        <Parameter Name="assetBundleOptions" Type="UnityEditor.BuildAssetBundleOptions" />
+        <Parameter Name="targetPlatform" Type="UnityEditor.BuildTarget" />
+        <Parameter Name="buildOptions" Type="UnityEditor.BuildOptions" />
+      </Parameters>
+      <Docs>
+        <param name="mainAsset">To be added.</param>
+        <param name="assets">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <param name="assetBundleOptions">To be added.</param>
+        <param name="targetPlatform">To be added.</param>
+        <param name="buildOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundleExplicitAssetNames">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundleExplicitAssetNames (UnityEngine.Object[] assets, string[] assetNames, string pathName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="assetNames" Type="System.String[]" />
+        <Parameter Name="pathName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="assets">To be added.</param>
+        <param name="assetNames">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundleExplicitAssetNames">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundleExplicitAssetNames (UnityEngine.Object[] assets, string[] assetNames, string pathName, UnityEditor.BuildAssetBundleOptions assetBundleOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="assetNames" Type="System.String[]" />
+        <Parameter Name="pathName" Type="System.String" />
+        <Parameter Name="assetBundleOptions" Type="UnityEditor.BuildAssetBundleOptions" />
+      </Parameters>
+      <Docs>
+        <param name="assets">To be added.</param>
+        <param name="assetNames">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <param name="assetBundleOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundleExplicitAssetNames">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundleExplicitAssetNames (UnityEngine.Object[] assets, string[] assetNames, string pathName, UnityEditor.BuildAssetBundleOptions assetBundleOptions, UnityEditor.BuildTarget targetPlatform);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="assetNames" Type="System.String[]" />
+        <Parameter Name="pathName" Type="System.String" />
+        <Parameter Name="assetBundleOptions" Type="UnityEditor.BuildAssetBundleOptions" />
+        <Parameter Name="targetPlatform" Type="UnityEditor.BuildTarget" />
+      </Parameters>
+      <Docs>
+        <param name="assets">To be added.</param>
+        <param name="assetNames">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <param name="assetBundleOptions">To be added.</param>
+        <param name="targetPlatform">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAssetBundleExplicitAssetNames">
+      <MemberSignature Language="C#" Value="public static bool BuildAssetBundleExplicitAssetNames (UnityEngine.Object[] assets, string[] assetNames, string pathName, UnityEditor.BuildAssetBundleOptions assetBundleOptions, UnityEditor.BuildTarget targetPlatform, UnityEditor.BuildOptions buildOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="assets" Type="UnityEngine.Object[]" />
+        <Parameter Name="assetNames" Type="System.String[]" />
+        <Parameter Name="pathName" Type="System.String" />
+        <Parameter Name="assetBundleOptions" Type="UnityEditor.BuildAssetBundleOptions" />
+        <Parameter Name="targetPlatform" Type="UnityEditor.BuildTarget" />
+        <Parameter Name="buildOptions" Type="UnityEditor.BuildOptions" />
+      </Parameters>
+      <Docs>
+        <param name="assets">To be added.</param>
+        <param name="assetNames">To be added.</param>
+        <param name="pathName">To be added.</param>
+        <param name="assetBundleOptions">To be added.</param>
+        <param name="targetPlatform">To be added.</param>
+        <param name="buildOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildPlayer">
+      <MemberSignature Language="C#" Value="public static string BuildPlayer (string[] levels, string locationPathName, UnityEditor.BuildTarget target, UnityEditor.BuildOptions options);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="levels" Type="System.String[]" />
+        <Parameter Name="locationPathName" Type="System.String" />
+        <Parameter Name="target" Type="UnityEditor.BuildTarget" />
+        <Parameter Name="options" Type="UnityEditor.BuildOptions" />
+      </Parameters>
+      <Docs>
+        <param name="levels">To be added.</param>
+        <param name="locationPathName">To be added.</param>
+        <param name="target">To be added.</param>
+        <param name="options">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildStreamedSceneAssetBundle">
+      <MemberSignature Language="C#" Value="public static string BuildStreamedSceneAssetBundle (string[] levels, string locationPath, UnityEditor.BuildTarget target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="levels" Type="System.String[]" />
+        <Parameter Name="locationPath" Type="System.String" />
+        <Parameter Name="target" Type="UnityEditor.BuildTarget" />
+      </Parameters>
+      <Docs>
+        <param name="levels">To be added.</param>
+        <param name="locationPath">To be added.</param>
+        <param name="target">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopAssetDependencies">
+      <MemberSignature Language="C#" Value="public static void PopAssetDependencies ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PushAssetDependencies">
+      <MemberSignature Language="C#" Value="public static void PushAssetDependencies ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

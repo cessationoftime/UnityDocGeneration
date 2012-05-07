@@ -1,0 +1,310 @@
+<Type Name="TreeAttribute" FullName="TreeEditor.TreeAttribute">
+  <TypeSignature Language="C#" Value="public class TreeAttribute : Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.AttributeUsage(System.AttributeTargets.Property | System.AttributeTargets.Field | System.AttributeTargets.All)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeAttribute (string uiLabel, string uiGadget, string uiOptions);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uiLabel" Type="System.String" />
+        <Parameter Name="uiGadget" Type="System.String" />
+        <Parameter Name="uiOptions" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uiLabel">To be added.</param>
+        <param name="uiGadget">To be added.</param>
+        <param name="uiOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeAttribute (string uiLabel, string uiGadget, float uiMin, float uiMax);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uiLabel" Type="System.String" />
+        <Parameter Name="uiGadget" Type="System.String" />
+        <Parameter Name="uiMin" Type="System.Single" />
+        <Parameter Name="uiMax" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="uiLabel">To be added.</param>
+        <param name="uiGadget">To be added.</param>
+        <param name="uiMin">To be added.</param>
+        <param name="uiMax">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeAttribute (string uiLabel, string uiGadget, float uiMin, float uiMax, string uiRequirement);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uiLabel" Type="System.String" />
+        <Parameter Name="uiGadget" Type="System.String" />
+        <Parameter Name="uiMin" Type="System.Single" />
+        <Parameter Name="uiMax" Type="System.Single" />
+        <Parameter Name="uiRequirement" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uiLabel">To be added.</param>
+        <param name="uiGadget">To be added.</param>
+        <param name="uiMin">To be added.</param>
+        <param name="uiMax">To be added.</param>
+        <param name="uiRequirement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeAttribute (string uiLabel, string uiGadget, float uiMin, float uiMax, string uiCurve, float uiCurveMin, float uiCurveMax);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uiLabel" Type="System.String" />
+        <Parameter Name="uiGadget" Type="System.String" />
+        <Parameter Name="uiMin" Type="System.Single" />
+        <Parameter Name="uiMax" Type="System.Single" />
+        <Parameter Name="uiCurve" Type="System.String" />
+        <Parameter Name="uiCurveMin" Type="System.Single" />
+        <Parameter Name="uiCurveMax" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="uiLabel">To be added.</param>
+        <param name="uiGadget">To be added.</param>
+        <param name="uiMin">To be added.</param>
+        <param name="uiMax">To be added.</param>
+        <param name="uiCurve">To be added.</param>
+        <param name="uiCurveMin">To be added.</param>
+        <param name="uiCurveMax">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeAttribute (string uiLabel, string uiGadget, string uiOptions, string uiCurve, float uiCurveMin, float uiCurveMax, string uiRequirement);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uiLabel" Type="System.String" />
+        <Parameter Name="uiGadget" Type="System.String" />
+        <Parameter Name="uiOptions" Type="System.String" />
+        <Parameter Name="uiCurve" Type="System.String" />
+        <Parameter Name="uiCurveMin" Type="System.Single" />
+        <Parameter Name="uiCurveMax" Type="System.Single" />
+        <Parameter Name="uiRequirement" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uiLabel">To be added.</param>
+        <param name="uiGadget">To be added.</param>
+        <param name="uiOptions">To be added.</param>
+        <param name="uiCurve">To be added.</param>
+        <param name="uiCurveMin">To be added.</param>
+        <param name="uiCurveMax">To be added.</param>
+        <param name="uiRequirement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeAttribute (string uiLabel, string uiGadget, float uiMin, float uiMax, string uiCurve, float uiCurveMin, float uiCurveMax, string uiRequirement);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uiLabel" Type="System.String" />
+        <Parameter Name="uiGadget" Type="System.String" />
+        <Parameter Name="uiMin" Type="System.Single" />
+        <Parameter Name="uiMax" Type="System.Single" />
+        <Parameter Name="uiCurve" Type="System.String" />
+        <Parameter Name="uiCurveMin" Type="System.Single" />
+        <Parameter Name="uiCurveMax" Type="System.Single" />
+        <Parameter Name="uiRequirement" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uiLabel">To be added.</param>
+        <param name="uiGadget">To be added.</param>
+        <param name="uiMin">To be added.</param>
+        <param name="uiMax">To be added.</param>
+        <param name="uiCurve">To be added.</param>
+        <param name="uiCurveMin">To be added.</param>
+        <param name="uiCurveMax">To be added.</param>
+        <param name="uiRequirement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiCurve">
+      <MemberSignature Language="C#" Value="public string uiCurve;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiCurveMax">
+      <MemberSignature Language="C#" Value="public float uiCurveMax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiCurveMin">
+      <MemberSignature Language="C#" Value="public float uiCurveMin;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiGadget">
+      <MemberSignature Language="C#" Value="public string uiGadget;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiLabel">
+      <MemberSignature Language="C#" Value="public string uiLabel;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiMax">
+      <MemberSignature Language="C#" Value="public float uiMax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiMin">
+      <MemberSignature Language="C#" Value="public float uiMin;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiOptions">
+      <MemberSignature Language="C#" Value="public UnityEngine.GUIContent[] uiOptions;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIContent[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="uiRequirement">
+      <MemberSignature Language="C#" Value="public string uiRequirement;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

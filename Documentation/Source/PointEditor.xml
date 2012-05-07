@@ -1,0 +1,126 @@
+<Type Name="PointEditor" FullName="PointEditor">
+  <TypeSignature Language="C#" Value="public class PointEditor" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PointEditor ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Draw">
+      <MemberSignature Language="C#" Value="public static void Draw (IEditablePoint points, UnityEngine.Transform cloudTransform, System.Collections.Generic.List&lt;int&gt; selection, UnityEngine.Material material, bool twoPassDrawing);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="points" Type="IEditablePoint" />
+        <Parameter Name="cloudTransform" Type="UnityEngine.Transform" />
+        <Parameter Name="selection" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+        <Parameter Name="material" Type="UnityEngine.Material" />
+        <Parameter Name="twoPassDrawing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="points">To be added.</param>
+        <param name="cloudTransform">To be added.</param>
+        <param name="selection">To be added.</param>
+        <param name="material">To be added.</param>
+        <param name="twoPassDrawing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNearest">
+      <MemberSignature Language="C#" Value="public static int FindNearest (UnityEngine.Vector2 point, UnityEngine.Transform cloudTransform, IEditablePoint points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="UnityEngine.Vector2" />
+        <Parameter Name="cloudTransform" Type="UnityEngine.Transform" />
+        <Parameter Name="points" Type="IEditablePoint" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="cloudTransform">To be added.</param>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MovePoints">
+      <MemberSignature Language="C#" Value="public static bool MovePoints (IEditablePoint points, UnityEngine.Transform cloudTransform, System.Collections.Generic.List&lt;int&gt; selection);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="points" Type="IEditablePoint" />
+        <Parameter Name="cloudTransform" Type="UnityEngine.Transform" />
+        <Parameter Name="selection" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="points">To be added.</param>
+        <param name="cloudTransform">To be added.</param>
+        <param name="selection">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectPoints">
+      <MemberSignature Language="C#" Value="public static bool SelectPoints (IEditablePoint points, UnityEngine.Transform cloudTransform, System.Collections.Generic.List&lt;int&gt; selection, bool firstSelect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="points" Type="IEditablePoint" />
+        <Parameter Name="cloudTransform" Type="UnityEngine.Transform" />
+        <Parameter Name="selection" Type="System.Collections.Generic.List&lt;System.Int32&gt;" />
+        <Parameter Name="firstSelect" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="points">To be added.</param>
+        <param name="cloudTransform">To be added.</param>
+        <param name="selection">To be added.</param>
+        <param name="firstSelect">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

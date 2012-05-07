@@ -1,0 +1,27 @@
+<Type Name="Handles+DrawCapFunction" FullName="UnityEditor.Handles+DrawCapFunction">
+  <TypeSignature Language="C#" Value="public delegate void Handles.DrawCapFunction(int controlID, Vector3 position, Quaternion rotation, float size);" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="controlID" Type="System.Int32" />
+    <Parameter Name="position" Type="UnityEngine.Vector3" />
+    <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+    <Parameter Name="size" Type="System.Single" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="controlID">To be added.</param>
+    <param name="position">To be added.</param>
+    <param name="rotation">To be added.</param>
+    <param name="size">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

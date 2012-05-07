@@ -1,0 +1,21 @@
+<Type Name="SceneView+OnSceneFunc" FullName="UnityEditor.SceneView+OnSceneFunc">
+  <TypeSignature Language="C#" Value="public delegate void SceneView.OnSceneFunc(SceneView sceneView);" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sceneView" Type="UnityEditor.SceneView" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sceneView">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

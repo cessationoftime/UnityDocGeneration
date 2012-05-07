@@ -1,0 +1,148 @@
+<Type Name="MacroEvents" FullName="UnityEditorInternal.MacroEvents">
+  <TypeSignature Language="C#" Value="public class MacroEvents" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MacroEvents ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossPlatformSwapDefaultModifiers">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Event CrossPlatformSwapDefaultModifiers (UnityEngine.Event evt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Event</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="evt" Type="UnityEngine.Event" />
+      </Parameters>
+      <Docs>
+        <param name="evt">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventToString">
+      <MemberSignature Language="C#" Value="public static string EventToString (UnityEngine.Event evt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="evt" Type="UnityEngine.Event" />
+      </Parameters>
+      <Docs>
+        <param name="evt">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecordMacroEvent">
+      <MemberSignature Language="C#" Value="public static void RecordMacroEvent (Type windowType, UnityEngine.Event evt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="windowType" Type="System.Type" />
+        <Parameter Name="evt" Type="UnityEngine.Event" />
+      </Parameters>
+      <Docs>
+        <param name="windowType">To be added.</param>
+        <param name="evt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMacroEvent">
+      <MemberSignature Language="C#" Value="public static void SendMacroEvent (string targetName, string eventString);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetName" Type="System.String" />
+        <Parameter Name="eventString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="targetName">To be added.</param>
+        <param name="eventString">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMacroEvent">
+      <MemberSignature Language="C#" Value="public static void SendMacroEvent (string targetName, string eventString, UnityEditorInternal.MacroEvents.AutoConvert autoConvert);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetName" Type="System.String" />
+        <Parameter Name="eventString" Type="System.String" />
+        <Parameter Name="autoConvert" Type="UnityEditorInternal.MacroEvents+AutoConvert" />
+      </Parameters>
+      <Docs>
+        <param name="targetName">To be added.</param>
+        <param name="eventString">To be added.</param>
+        <param name="autoConvert">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StringToEvent">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Event StringToEvent (string input);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Event</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="input">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

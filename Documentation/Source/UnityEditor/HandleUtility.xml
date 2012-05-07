@@ -1,0 +1,735 @@
+<Type Name="HandleUtility" FullName="UnityEditor.HandleUtility">
+  <TypeSignature Language="C#" Value="public sealed class HandleUtility" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HandleUtility ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="acceleration">
+      <MemberSignature Language="C#" Value="public static float acceleration { get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddControl">
+      <MemberSignature Language="C#" Value="public static void AddControl (int controlId, float distance);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlId" Type="System.Int32" />
+        <Parameter Name="distance" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlId">To be added.</param>
+        <param name="distance">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDefaultControl">
+      <MemberSignature Language="C#" Value="public static void AddDefaultControl (int controlId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlId" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="controlId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalcLineTranslation">
+      <MemberSignature Language="C#" Value="public static float CalcLineTranslation (UnityEngine.Vector2 src, UnityEngine.Vector2 dest, UnityEngine.Vector3 srcPosition, UnityEngine.Vector3 constraintDir);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="src" Type="UnityEngine.Vector2" />
+        <Parameter Name="dest" Type="UnityEngine.Vector2" />
+        <Parameter Name="srcPosition" Type="UnityEngine.Vector3" />
+        <Parameter Name="constraintDir" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="src">To be added.</param>
+        <param name="dest">To be added.</param>
+        <param name="srcPosition">To be added.</param>
+        <param name="constraintDir">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosestPointToArc">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 ClosestPointToArc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, UnityEngine.Vector3 from, float angle, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="from" Type="UnityEngine.Vector3" />
+        <Parameter Name="angle" Type="System.Single" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="from">To be added.</param>
+        <param name="angle">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosestPointToDisc">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 ClosestPointToDisc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosestPointToPolyLine">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 ClosestPointToPolyLine (UnityEngine.Vector3[] vertices);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vertices" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="vertices">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistancePointBezier">
+      <MemberSignature Language="C#" Value="public static float DistancePointBezier (UnityEngine.Vector3 point, UnityEngine.Vector3 startPosition, UnityEngine.Vector3 endPosition, UnityEngine.Vector3 startTangent, UnityEngine.Vector3 endTangent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="UnityEngine.Vector3" />
+        <Parameter Name="startPosition" Type="UnityEngine.Vector3" />
+        <Parameter Name="endPosition" Type="UnityEngine.Vector3" />
+        <Parameter Name="startTangent" Type="UnityEngine.Vector3" />
+        <Parameter Name="endTangent" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="startPosition">To be added.</param>
+        <param name="endPosition">To be added.</param>
+        <param name="startTangent">To be added.</param>
+        <param name="endTangent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistancePointLine">
+      <MemberSignature Language="C#" Value="public static float DistancePointLine (UnityEngine.Vector3 point, UnityEngine.Vector3 lineStart, UnityEngine.Vector3 lineEnd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="UnityEngine.Vector3" />
+        <Parameter Name="lineStart" Type="UnityEngine.Vector3" />
+        <Parameter Name="lineEnd" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="lineStart">To be added.</param>
+        <param name="lineEnd">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistancePointToLine">
+      <MemberSignature Language="C#" Value="public static float DistancePointToLine (UnityEngine.Vector2 p, UnityEngine.Vector2 a, UnityEngine.Vector2 b);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="p" Type="UnityEngine.Vector2" />
+        <Parameter Name="a" Type="UnityEngine.Vector2" />
+        <Parameter Name="b" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="p">To be added.</param>
+        <param name="a">To be added.</param>
+        <param name="b">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistancePointToLineSegment">
+      <MemberSignature Language="C#" Value="public static float DistancePointToLineSegment (UnityEngine.Vector2 p, UnityEngine.Vector2 a, UnityEngine.Vector2 b);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="p" Type="UnityEngine.Vector2" />
+        <Parameter Name="a" Type="UnityEngine.Vector2" />
+        <Parameter Name="b" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="p">To be added.</param>
+        <param name="a">To be added.</param>
+        <param name="b">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistanceToArc">
+      <MemberSignature Language="C#" Value="public static float DistanceToArc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, UnityEngine.Vector3 from, float angle, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="from" Type="UnityEngine.Vector3" />
+        <Parameter Name="angle" Type="System.Single" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="from">To be added.</param>
+        <param name="angle">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistanceToCircle">
+      <MemberSignature Language="C#" Value="public static float DistanceToCircle (UnityEngine.Vector3 position, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistanceToDisc">
+      <MemberSignature Language="C#" Value="public static float DistanceToDisc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistanceToLine">
+      <MemberSignature Language="C#" Value="public static float DistanceToLine (UnityEngine.Vector3 p1, UnityEngine.Vector3 p2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="p1" Type="UnityEngine.Vector3" />
+        <Parameter Name="p2" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="p1">To be added.</param>
+        <param name="p2">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistanceToPolyLine">
+      <MemberSignature Language="C#" Value="public static float DistanceToPolyLine (UnityEngine.Vector3[] points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="points" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistanceToRectangle">
+      <MemberSignature Language="C#" Value="public static float DistanceToRectangle (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHandleSize">
+      <MemberSignature Language="C#" Value="public static float GetHandleSize (UnityEngine.Vector3 position);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GUIPointToWorldRay">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Ray GUIPointToWorldRay (UnityEngine.Vector2 position);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Ray</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="handleMaterial">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Material handleMaterial { get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nearestControl">
+      <MemberSignature Language="C#" Value="public static int nearestControl { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="niceMouseDelta">
+      <MemberSignature Language="C#" Value="public static float niceMouseDelta { get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="niceMouseDeltaZoom">
+      <MemberSignature Language="C#" Value="public static float niceMouseDeltaZoom { get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickGameObject">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject PickGameObject (UnityEngine.Vector2 position, bool selectPrefabRoot);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector2" />
+        <Parameter Name="selectPrefabRoot" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectPrefabRoot">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickRectObjects">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject[] PickRectObjects (UnityEngine.Rect rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickRectObjects">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GameObject[] PickRectObjects (UnityEngine.Rect rect, bool selectPrefabRootsOnly);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="UnityEngine.Rect" />
+        <Parameter Name="selectPrefabRootsOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <param name="selectPrefabRootsOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PointOnLineParameter">
+      <MemberSignature Language="C#" Value="public static float PointOnLineParameter (UnityEngine.Vector3 point, UnityEngine.Vector3 linePoint, UnityEngine.Vector3 lineDirection);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="UnityEngine.Vector3" />
+        <Parameter Name="linePoint" Type="UnityEngine.Vector3" />
+        <Parameter Name="lineDirection" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="linePoint">To be added.</param>
+        <param name="lineDirection">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PopCamera">
+      <MemberSignature Language="C#" Value="public static void PopCamera (UnityEngine.Camera camera);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="camera" Type="UnityEngine.Camera" />
+      </Parameters>
+      <Docs>
+        <param name="camera">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProjectPointLine">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 ProjectPointLine (UnityEngine.Vector3 point, UnityEngine.Vector3 lineStart, UnityEngine.Vector3 lineEnd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="UnityEngine.Vector3" />
+        <Parameter Name="lineStart" Type="UnityEngine.Vector3" />
+        <Parameter Name="lineEnd" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="lineStart">To be added.</param>
+        <param name="lineEnd">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PushCamera">
+      <MemberSignature Language="C#" Value="public static void PushCamera (UnityEngine.Camera camera);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="camera" Type="UnityEngine.Camera" />
+      </Parameters>
+      <Docs>
+        <param name="camera">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RaySnap">
+      <MemberSignature Language="C#" Value="public static object RaySnap (UnityEngine.Ray ray);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray" />
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Repaint">
+      <MemberSignature Language="C#" Value="public static void Repaint ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorldPointToSizedRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect WorldPointToSizedRect (UnityEngine.Vector3 position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorldToGUIPoint">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 WorldToGUIPoint (UnityEngine.Vector3 world);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="world" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="world">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

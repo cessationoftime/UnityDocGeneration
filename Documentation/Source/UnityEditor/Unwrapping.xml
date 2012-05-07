@@ -1,0 +1,107 @@
+<Type Name="Unwrapping" FullName="UnityEditor.Unwrapping">
+  <TypeSignature Language="C#" Value="public sealed class Unwrapping" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Unwrapping ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GeneratePerTriangleUV">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2[] GeneratePerTriangleUV (UnityEngine.Mesh src);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="src" Type="UnityEngine.Mesh" />
+      </Parameters>
+      <Docs>
+        <param name="src">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GeneratePerTriangleUV">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2[] GeneratePerTriangleUV (UnityEngine.Mesh src, UnityEditor.UnwrapParam settings);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="src" Type="UnityEngine.Mesh" />
+        <Parameter Name="settings" Type="UnityEditor.UnwrapParam" />
+      </Parameters>
+      <Docs>
+        <param name="src">To be added.</param>
+        <param name="settings">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSecondaryUVSet">
+      <MemberSignature Language="C#" Value="public static void GenerateSecondaryUVSet (UnityEngine.Mesh src);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="src" Type="UnityEngine.Mesh" />
+      </Parameters>
+      <Docs>
+        <param name="src">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateSecondaryUVSet">
+      <MemberSignature Language="C#" Value="public static void GenerateSecondaryUVSet (UnityEngine.Mesh src, UnityEditor.UnwrapParam settings);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="src" Type="UnityEngine.Mesh" />
+        <Parameter Name="settings" Type="UnityEditor.UnwrapParam" />
+      </Parameters>
+      <Docs>
+        <param name="src">To be added.</param>
+        <param name="settings">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

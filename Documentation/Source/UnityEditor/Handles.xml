@@ -1,0 +1,1762 @@
+<Type Name="Handles" FullName="UnityEditor.Handles">
+  <TypeSignature Language="C#" Value="public sealed class Handles" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Handles ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArrowCap">
+      <MemberSignature Language="C#" Value="public static void ArrowCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGUI">
+      <MemberSignature Language="C#" Value="public static void BeginGUI ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGUI">
+      <MemberSignature Language="C#" Value="public static void BeginGUI (UnityEngine.Rect position);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public static bool Button (UnityEngine.Vector3 position, UnityEngine.Quaternion direction, float size, float pickSize, UnityEditor.Handles.DrawCapFunction capFunc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="direction" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+        <Parameter Name="pickSize" Type="System.Single" />
+        <Parameter Name="capFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="pickSize">To be added.</param>
+        <param name="capFunc">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CircleCap">
+      <MemberSignature Language="C#" Value="public static void CircleCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearCamera">
+      <MemberSignature Language="C#" Value="public static void ClearCamera (UnityEngine.Rect position, UnityEngine.Camera camera);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="camera" Type="UnityEngine.Camera" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="camera">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="color">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color color { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConeCap">
+      <MemberSignature Language="C#" Value="public static void ConeCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CubeCap">
+      <MemberSignature Language="C#" Value="public static void CubeCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="currentCamera">
+      <MemberSignature Language="C#" Value="public UnityEngine.Camera currentCamera { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Camera</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CylinderCap">
+      <MemberSignature Language="C#" Value="public static void CylinderCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disc">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion Disc (UnityEngine.Quaternion rotation, UnityEngine.Vector3 position, UnityEngine.Vector3 axis, float size, bool cutoffPlane, float snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="axis" Type="UnityEngine.Vector3" />
+        <Parameter Name="size" Type="System.Single" />
+        <Parameter Name="cutoffPlane" Type="System.Boolean" />
+        <Parameter Name="snap" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="rotation">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="axis">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="cutoffPlane">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoPositionHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 DoPositionHandle (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoRotationHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion DoRotationHandle (UnityEngine.Quaternion rotation, UnityEngine.Vector3 position);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="rotation">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoScaleHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 DoScaleHandle (UnityEngine.Vector3 scale, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scale" Type="UnityEngine.Vector3" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="scale">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DotCap">
+      <MemberSignature Language="C#" Value="public static void DotCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawAAPolyLine">
+      <MemberSignature Language="C#" Value="public static void DrawAAPolyLine (UnityEngine.Vector3[] points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="points" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawAAPolyLine">
+      <MemberSignature Language="C#" Value="public static void DrawAAPolyLine (float width, UnityEngine.Vector3[] points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single" />
+        <Parameter Name="points" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawAAPolyLine">
+      <MemberSignature Language="C#" Value="public static void DrawAAPolyLine (UnityEngine.Texture2D lineTex, UnityEngine.Vector3[] points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lineTex" Type="UnityEngine.Texture2D" />
+        <Parameter Name="points" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="lineTex">To be added.</param>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawAAPolyLine">
+      <MemberSignature Language="C#" Value="public static void DrawAAPolyLine (float width, int actualNumberOfPoints, UnityEngine.Vector3[] points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="width" Type="System.Single" />
+        <Parameter Name="actualNumberOfPoints" Type="System.Int32" />
+        <Parameter Name="points" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="width">To be added.</param>
+        <param name="actualNumberOfPoints">To be added.</param>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawAAPolyLine">
+      <MemberSignature Language="C#" Value="public static void DrawAAPolyLine (UnityEngine.Texture2D lineTex, float width, UnityEngine.Vector3[] points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lineTex" Type="UnityEngine.Texture2D" />
+        <Parameter Name="width" Type="System.Single" />
+        <Parameter Name="points" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="lineTex">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawArrow">
+      <MemberSignature Language="C#" Value="public static void DrawArrow (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("DrawArrow has been renamed to ArrowCap.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawBezier">
+      <MemberSignature Language="C#" Value="public static void DrawBezier (UnityEngine.Vector3 startPosition, UnityEngine.Vector3 endPosition, UnityEngine.Vector3 startTangent, UnityEngine.Vector3 endTangent, UnityEngine.Color color, UnityEngine.Texture2D texture, float width);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="startPosition" Type="UnityEngine.Vector3" />
+        <Parameter Name="endPosition" Type="UnityEngine.Vector3" />
+        <Parameter Name="startTangent" Type="UnityEngine.Vector3" />
+        <Parameter Name="endTangent" Type="UnityEngine.Vector3" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="texture" Type="UnityEngine.Texture2D" />
+        <Parameter Name="width" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="startPosition">To be added.</param>
+        <param name="endPosition">To be added.</param>
+        <param name="startTangent">To be added.</param>
+        <param name="endTangent">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="texture">To be added.</param>
+        <param name="width">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCamera">
+      <MemberSignature Language="C#" Value="public static void DrawCamera (UnityEngine.Rect position, UnityEngine.Camera camera);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="camera" Type="UnityEngine.Camera" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="camera">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCamera">
+      <MemberSignature Language="C#" Value="public static void DrawCamera (UnityEngine.Rect position, UnityEngine.Camera camera, UnityEditor.DrawCameraMode drawMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="camera" Type="UnityEngine.Camera" />
+        <Parameter Name="drawMode" Type="UnityEditor.DrawCameraMode" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="camera">To be added.</param>
+        <param name="drawMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCone">
+      <MemberSignature Language="C#" Value="public static void DrawCone (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("DrawCone has been renamed to ConeCap.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCube">
+      <MemberSignature Language="C#" Value="public static void DrawCube (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("DrawCube has been renamed to CubeCap.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCylinder">
+      <MemberSignature Language="C#" Value="public static void DrawCylinder (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("DrawCylinder has been renamed to CylinderCap.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawLine">
+      <MemberSignature Language="C#" Value="public static void DrawLine (UnityEngine.Vector3 p1, UnityEngine.Vector3 p2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="p1" Type="UnityEngine.Vector3" />
+        <Parameter Name="p2" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="p1">To be added.</param>
+        <param name="p2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawPolyLine">
+      <MemberSignature Language="C#" Value="public static void DrawPolyLine (UnityEngine.Vector3[] points);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="points" Type="UnityEngine.Vector3[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="points">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawRectangle">
+      <MemberSignature Language="C#" Value="public static void DrawRectangle (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("DrawRectangle has been renamed to RectangleCap.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawSolidArc">
+      <MemberSignature Language="C#" Value="public static void DrawSolidArc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, UnityEngine.Vector3 from, float angle, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="from" Type="UnityEngine.Vector3" />
+        <Parameter Name="angle" Type="System.Single" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="from">To be added.</param>
+        <param name="angle">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawSolidDisc">
+      <MemberSignature Language="C#" Value="public static void DrawSolidDisc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawSolidRectangleWithOutline">
+      <MemberSignature Language="C#" Value="public static void DrawSolidRectangleWithOutline (UnityEngine.Vector3[] verts, UnityEngine.Color faceColor, UnityEngine.Color outlineColor);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verts" Type="UnityEngine.Vector3[]" />
+        <Parameter Name="faceColor" Type="UnityEngine.Color" />
+        <Parameter Name="outlineColor" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="verts">To be added.</param>
+        <param name="faceColor">To be added.</param>
+        <param name="outlineColor">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawSphere">
+      <MemberSignature Language="C#" Value="public static void DrawSphere (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("DrawSphere has been renamed to SphereCap.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawWireArc">
+      <MemberSignature Language="C#" Value="public static void DrawWireArc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, UnityEngine.Vector3 from, float angle, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="from" Type="UnityEngine.Vector3" />
+        <Parameter Name="angle" Type="System.Single" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="from">To be added.</param>
+        <param name="angle">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawWireDisc">
+      <MemberSignature Language="C#" Value="public static void DrawWireDisc (UnityEngine.Vector3 center, UnityEngine.Vector3 normal, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="center" Type="UnityEngine.Vector3" />
+        <Parameter Name="normal" Type="UnityEngine.Vector3" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="center">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGUI">
+      <MemberSignature Language="C#" Value="public static void EndGUI ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeMoveHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 FreeMoveHandle (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size, UnityEngine.Vector3 snap, UnityEditor.Handles.DrawCapFunction capFunc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+        <Parameter Name="snap" Type="UnityEngine.Vector3" />
+        <Parameter Name="capFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="snap">To be added.</param>
+        <param name="capFunc">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeRotateHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion FreeRotateHandle (UnityEngine.Quaternion rotation, UnityEngine.Vector3 position, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="rotation">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.Vector3 position, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.Vector3 position, UnityEngine.GUIContent content);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.Vector3 position, UnityEngine.Texture image);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.Vector3 position, string text, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public static void Label (UnityEngine.Vector3 position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lighting">
+      <MemberSignature Language="C#" Value="public static bool lighting { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="matrix">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Matrix4x4 matrix { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Matrix4x4</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PositionHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 PositionHandle (UnityEngine.Vector3 position, UnityEngine.Quaternion rotation);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadiusHandle">
+      <MemberSignature Language="C#" Value="public static float RadiusHandle (UnityEngine.Quaternion rotation, UnityEngine.Vector3 position, float radius);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="radius" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="rotation">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadiusHandle">
+      <MemberSignature Language="C#" Value="public static float RadiusHandle (UnityEngine.Quaternion rotation, UnityEngine.Vector3 position, float radius, bool handlesOnly);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="radius" Type="System.Single" />
+        <Parameter Name="handlesOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="rotation">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="radius">To be added.</param>
+        <param name="handlesOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RectangleCap">
+      <MemberSignature Language="C#" Value="public static void RectangleCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotationHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion RotationHandle (UnityEngine.Quaternion rotation, UnityEngine.Vector3 position);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="rotation">To be added.</param>
+        <param name="position">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleHandle">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 ScaleHandle (UnityEngine.Vector3 scale, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scale" Type="UnityEngine.Vector3" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="scale">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleSlider">
+      <MemberSignature Language="C#" Value="public static float ScaleSlider (float scale, UnityEngine.Vector3 position, UnityEngine.Vector3 direction, UnityEngine.Quaternion rotation, float size, float snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scale" Type="System.Single" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="direction" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+        <Parameter Name="snap" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="scale">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleValueHandle">
+      <MemberSignature Language="C#" Value="public static float ScaleValueHandle (float value, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size, UnityEditor.Handles.DrawCapFunction capFunc, float snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+        <Parameter Name="capFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="capFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionFrame">
+      <MemberSignature Language="C#" Value="public static void SelectionFrame (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCamera">
+      <MemberSignature Language="C#" Value="public static void SetCamera (UnityEngine.Camera camera);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="camera" Type="UnityEngine.Camera" />
+      </Parameters>
+      <Docs>
+        <param name="camera">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCamera">
+      <MemberSignature Language="C#" Value="public static void SetCamera (UnityEngine.Rect position, UnityEngine.Camera camera);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="camera" Type="UnityEngine.Camera" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="camera">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimpleSelectionFrame">
+      <MemberSignature Language="C#" Value="public static void SimpleSelectionFrame (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider (UnityEngine.Vector3 position, UnityEngine.Vector3 direction);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="direction" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="direction">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider (UnityEngine.Vector3 position, UnityEngine.Vector3 direction, float size, UnityEditor.Handles.DrawCapFunction drawFunc, float snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="direction" Type="UnityEngine.Vector3" />
+        <Parameter Name="size" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="direction">To be added.</param>
+        <param name="size">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (UnityEngine.Vector3 handlePos, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, float snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="handlePos">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (UnityEngine.Vector3 handlePos, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, UnityEngine.Vector2 snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="handlePos">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (int id, UnityEngine.Vector3 handlePos, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, UnityEngine.Vector2 snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="handlePos">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (UnityEngine.Vector3 handlePos, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, float snap, bool drawHelper);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="System.Single" />
+        <Parameter Name="drawHelper" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="handlePos">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <param name="drawHelper">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (UnityEngine.Vector3 handlePos, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, UnityEngine.Vector2 snap, bool drawHelper);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="UnityEngine.Vector2" />
+        <Parameter Name="drawHelper" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="handlePos">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <param name="drawHelper">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (int id, UnityEngine.Vector3 handlePos, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, UnityEngine.Vector2 snap, bool drawHelper);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="UnityEngine.Vector2" />
+        <Parameter Name="drawHelper" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="handlePos">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <param name="drawHelper">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (int id, UnityEngine.Vector3 handlePos, UnityEngine.Vector3 offset, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, UnityEngine.Vector2 snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="offset" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="handlePos">To be added.</param>
+        <param name="offset">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider2D">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Slider2D (int id, UnityEngine.Vector3 handlePos, UnityEngine.Vector3 offset, UnityEngine.Vector3 handleDir, UnityEngine.Vector3 slideDir1, UnityEngine.Vector3 slideDir2, float handleSize, UnityEditor.Handles.DrawCapFunction drawFunc, UnityEngine.Vector2 snap, bool drawHelper);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="handlePos" Type="UnityEngine.Vector3" />
+        <Parameter Name="offset" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleDir" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir1" Type="UnityEngine.Vector3" />
+        <Parameter Name="slideDir2" Type="UnityEngine.Vector3" />
+        <Parameter Name="handleSize" Type="System.Single" />
+        <Parameter Name="drawFunc" Type="UnityEditor.Handles+DrawCapFunction" />
+        <Parameter Name="snap" Type="UnityEngine.Vector2" />
+        <Parameter Name="drawHelper" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="handlePos">To be added.</param>
+        <param name="offset">To be added.</param>
+        <param name="handleDir">To be added.</param>
+        <param name="slideDir1">To be added.</param>
+        <param name="slideDir2">To be added.</param>
+        <param name="handleSize">To be added.</param>
+        <param name="drawFunc">To be added.</param>
+        <param name="snap">To be added.</param>
+        <param name="drawHelper">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SnapValue">
+      <MemberSignature Language="C#" Value="public static float SnapValue (float val, float snap);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="val" Type="System.Single" />
+        <Parameter Name="snap" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="val">To be added.</param>
+        <param name="snap">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SphereCap">
+      <MemberSignature Language="C#" Value="public static void SphereCap (int controlID, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, float size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="controlID" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Vector3" />
+        <Parameter Name="rotation" Type="UnityEngine.Quaternion" />
+        <Parameter Name="size" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="controlID">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="rotation">To be added.</param>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

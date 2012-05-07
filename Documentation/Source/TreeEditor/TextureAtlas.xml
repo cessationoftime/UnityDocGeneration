@@ -1,0 +1,201 @@
+<Type Name="TextureAtlas" FullName="TreeEditor.TextureAtlas">
+  <TypeSignature Language="C#" Value="public class TextureAtlas" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextureAtlas ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTexture">
+      <MemberSignature Language="C#" Value="public void AddTexture (string name, UnityEngine.Texture2D diffuse, UnityEngine.Color diffuseColor, UnityEngine.Texture2D normal, UnityEngine.Texture2D gloss, UnityEngine.Texture2D transtex, UnityEngine.Texture2D shadowOffsetTex, float shininess, UnityEngine.Vector2 scale, bool tileV, UnityEngine.Vector2 uvTiling);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="diffuse" Type="UnityEngine.Texture2D" />
+        <Parameter Name="diffuseColor" Type="UnityEngine.Color" />
+        <Parameter Name="normal" Type="UnityEngine.Texture2D" />
+        <Parameter Name="gloss" Type="UnityEngine.Texture2D" />
+        <Parameter Name="transtex" Type="UnityEngine.Texture2D" />
+        <Parameter Name="shadowOffsetTex" Type="UnityEngine.Texture2D" />
+        <Parameter Name="shininess" Type="System.Single" />
+        <Parameter Name="scale" Type="UnityEngine.Vector2" />
+        <Parameter Name="tileV" Type="System.Boolean" />
+        <Parameter Name="uvTiling" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="diffuse">To be added.</param>
+        <param name="diffuseColor">To be added.</param>
+        <param name="normal">To be added.</param>
+        <param name="gloss">To be added.</param>
+        <param name="transtex">To be added.</param>
+        <param name="shadowOffsetTex">To be added.</param>
+        <param name="shininess">To be added.</param>
+        <param name="scale">To be added.</param>
+        <param name="tileV">To be added.</param>
+        <param name="uvTiling">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="atlasHeight">
+      <MemberSignature Language="C#" Value="public int atlasHeight;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="atlasPadding">
+      <MemberSignature Language="C#" Value="public int atlasPadding;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="atlasWidth">
+      <MemberSignature Language="C#" Value="public int atlasWidth;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTexTiling">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 GetTexTiling (string name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUVRect">
+      <MemberSignature Language="C#" Value="public UnityEngine.Rect GetUVRect (string name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;TreeEditor.TextureAtlas.TextureNode&gt; nodes;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;TreeEditor.TextureAtlas+TextureNode&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pack">
+      <MemberSignature Language="C#" Value="public void Pack (ref int targetWidth, int targetHeight, int padding, bool correctPow2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetWidth" Type="System.Int32&amp;" RefType="ref" />
+        <Parameter Name="targetHeight" Type="System.Int32" />
+        <Parameter Name="padding" Type="System.Int32" />
+        <Parameter Name="correctPow2" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="targetWidth">To be added.</param>
+        <param name="targetHeight">To be added.</param>
+        <param name="padding">To be added.</param>
+        <param name="correctPow2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,173 @@
+<Type Name="TreeTriangle" FullName="TreeEditor.TreeTriangle">
+  <TypeSignature Language="C#" Value="public class TreeTriangle" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeTriangle (int material, int v0, int v1, int v2);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="material" Type="System.Int32" />
+        <Parameter Name="v0" Type="System.Int32" />
+        <Parameter Name="v1" Type="System.Int32" />
+        <Parameter Name="v2" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="v0">To be added.</param>
+        <param name="v1">To be added.</param>
+        <param name="v2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeTriangle (int material, int v0, int v1, int v2, bool isBillboard);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="material" Type="System.Int32" />
+        <Parameter Name="v0" Type="System.Int32" />
+        <Parameter Name="v1" Type="System.Int32" />
+        <Parameter Name="v2" Type="System.Int32" />
+        <Parameter Name="isBillboard" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="v0">To be added.</param>
+        <param name="v1">To be added.</param>
+        <param name="v2">To be added.</param>
+        <param name="isBillboard">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeTriangle (int material, int v0, int v1, int v2, bool isBillboard, bool tileV, bool isCutout);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="material" Type="System.Int32" />
+        <Parameter Name="v0" Type="System.Int32" />
+        <Parameter Name="v1" Type="System.Int32" />
+        <Parameter Name="v2" Type="System.Int32" />
+        <Parameter Name="isBillboard" Type="System.Boolean" />
+        <Parameter Name="tileV" Type="System.Boolean" />
+        <Parameter Name="isCutout" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="v0">To be added.</param>
+        <param name="v1">To be added.</param>
+        <param name="v2">To be added.</param>
+        <param name="isBillboard">To be added.</param>
+        <param name="tileV">To be added.</param>
+        <param name="isCutout">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="flip">
+      <MemberSignature Language="C#" Value="public void flip ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isBillboard">
+      <MemberSignature Language="C#" Value="public bool isBillboard;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isCutout">
+      <MemberSignature Language="C#" Value="public bool isCutout;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="materialIndex">
+      <MemberSignature Language="C#" Value="public int materialIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="tileV">
+      <MemberSignature Language="C#" Value="public bool tileV;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="v">
+      <MemberSignature Language="C#" Value="public int[] v;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

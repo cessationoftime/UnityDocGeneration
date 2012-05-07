@@ -1,0 +1,97 @@
+<Type Name="Unsupported+ProgressiveMesh" FullName="UnityEditor.Unsupported+ProgressiveMesh">
+  <TypeSignature Language="C#" Value="public struct Unsupported.ProgressiveMesh" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static void Create (UnityEngine.Mesh src, out UnityEditor.Unsupported.ProgressiveMesh pm);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="src" Type="UnityEngine.Mesh" />
+        <Parameter Name="pm" Type="UnityEditor.Unsupported+ProgressiveMesh&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="src">To be added.</param>
+        <param name="pm">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateInitialGeometry">
+      <MemberSignature Language="C#" Value="public static void CreateInitialGeometry (UnityEditor.Unsupported.ProgressiveMesh pm, UnityEngine.Mesh mesh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pm" Type="UnityEditor.Unsupported+ProgressiveMesh" />
+        <Parameter Name="mesh" Type="UnityEngine.Mesh" />
+      </Parameters>
+      <Docs>
+        <param name="pm">To be added.</param>
+        <param name="mesh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Destroy">
+      <MemberSignature Language="C#" Value="public static void Destroy (ref UnityEditor.Unsupported.ProgressiveMesh pm);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pm" Type="UnityEditor.Unsupported+ProgressiveMesh&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="pm">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateMesh">
+      <MemberSignature Language="C#" Value="public static void UpdateMesh (UnityEditor.Unsupported.ProgressiveMesh pm, int targetTriCount, UnityEngine.Mesh mesh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pm" Type="UnityEditor.Unsupported+ProgressiveMesh" />
+        <Parameter Name="targetTriCount" Type="System.Int32" />
+        <Parameter Name="mesh" Type="UnityEngine.Mesh" />
+      </Parameters>
+      <Docs>
+        <param name="pm">To be added.</param>
+        <param name="targetTriCount">To be added.</param>
+        <param name="mesh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

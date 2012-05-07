@@ -1,0 +1,367 @@
+<Type Name="MathUtils" FullName="UnityEditor.MathUtils">
+  <TypeSignature Language="C#" Value="public class MathUtils" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MathUtils ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosestPtRaySphere">
+      <MemberSignature Language="C#" Value="public static bool ClosestPtRaySphere (UnityEngine.Ray ray, UnityEngine.Vector3 sphereOrigin, float sphereRadius, ref float t, ref UnityEngine.Vector3 q);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray" />
+        <Parameter Name="sphereOrigin" Type="UnityEngine.Vector3" />
+        <Parameter Name="sphereRadius" Type="System.Single" />
+        <Parameter Name="t" Type="System.Single&amp;" RefType="ref" />
+        <Parameter Name="q" Type="UnityEngine.Vector3&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="sphereOrigin">To be added.</param>
+        <param name="sphereRadius">To be added.</param>
+        <param name="t">To be added.</param>
+        <param name="q">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClosestPtSegmentRay">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 ClosestPtSegmentRay (UnityEngine.Vector3 p1, UnityEngine.Vector3 q1, UnityEngine.Ray ray, out float squaredDist, out float s, out UnityEngine.Vector3 closestRay);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="p1" Type="UnityEngine.Vector3" />
+        <Parameter Name="q1" Type="UnityEngine.Vector3" />
+        <Parameter Name="ray" Type="UnityEngine.Ray" />
+        <Parameter Name="squaredDist" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="s" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="closestRay" Type="UnityEngine.Vector3&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="p1">To be added.</param>
+        <param name="q1">To be added.</param>
+        <param name="ray">To be added.</param>
+        <param name="squaredDist">To be added.</param>
+        <param name="s">To be added.</param>
+        <param name="closestRay">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ease">
+      <MemberSignature Language="C#" Value="public static float Ease (float t, float k1, float k2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="System.Single" />
+        <Parameter Name="k1" Type="System.Single" />
+        <Parameter Name="k2" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="k1">To be added.</param>
+        <param name="k2">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQuatConjugate">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion GetQuatConjugate (UnityEngine.Quaternion q);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="q" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="q">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQuatExp">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion GetQuatExp (UnityEngine.Quaternion q);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="q" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="q">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQuatLength">
+      <MemberSignature Language="C#" Value="public static float GetQuatLength (UnityEngine.Quaternion q);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="q" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="q">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQuatLog">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion GetQuatLog (UnityEngine.Quaternion q);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="q" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="q">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQuatSquad">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion GetQuatSquad (float t, UnityEngine.Quaternion q0, UnityEngine.Quaternion q1, UnityEngine.Quaternion a0, UnityEngine.Quaternion a1);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="t" Type="System.Single" />
+        <Parameter Name="q0" Type="UnityEngine.Quaternion" />
+        <Parameter Name="q1" Type="UnityEngine.Quaternion" />
+        <Parameter Name="a0" Type="UnityEngine.Quaternion" />
+        <Parameter Name="a1" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="t">To be added.</param>
+        <param name="q0">To be added.</param>
+        <param name="q1">To be added.</param>
+        <param name="a0">To be added.</param>
+        <param name="a1">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSquadIntermediate">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion GetSquadIntermediate (UnityEngine.Quaternion q0, UnityEngine.Quaternion q1, UnityEngine.Quaternion q2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="q0" Type="UnityEngine.Quaternion" />
+        <Parameter Name="q1" Type="UnityEngine.Quaternion" />
+        <Parameter Name="q2" Type="UnityEngine.Quaternion" />
+      </Parameters>
+      <Docs>
+        <param name="q0">To be added.</param>
+        <param name="q1">To be added.</param>
+        <param name="q2">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntersectRaySphere">
+      <MemberSignature Language="C#" Value="public static bool IntersectRaySphere (UnityEngine.Ray ray, UnityEngine.Vector3 sphereOrigin, float sphereRadius, ref float t, ref UnityEngine.Vector3 q);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray" />
+        <Parameter Name="sphereOrigin" Type="UnityEngine.Vector3" />
+        <Parameter Name="sphereRadius" Type="System.Single" />
+        <Parameter Name="t" Type="System.Single&amp;" RefType="ref" />
+        <Parameter Name="q" Type="UnityEngine.Vector3&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="sphereOrigin">To be added.</param>
+        <param name="sphereRadius">To be added.</param>
+        <param name="t">To be added.</param>
+        <param name="q">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntersectRayTriangle">
+      <MemberSignature Language="C#" Value="public static object IntersectRayTriangle (UnityEngine.Ray ray, UnityEngine.Vector3 v0, UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, bool bidirectional);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ray" Type="UnityEngine.Ray" />
+        <Parameter Name="v0" Type="UnityEngine.Vector3" />
+        <Parameter Name="v1" Type="UnityEngine.Vector3" />
+        <Parameter Name="v2" Type="UnityEngine.Vector3" />
+        <Parameter Name="bidirectional" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ray">To be added.</param>
+        <param name="v0">To be added.</param>
+        <param name="v1">To be added.</param>
+        <param name="v2">To be added.</param>
+        <param name="bidirectional">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrthogonalizeMatrix">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Matrix4x4 OrthogonalizeMatrix (UnityEngine.Matrix4x4 m);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Matrix4x4</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="m" Type="UnityEngine.Matrix4x4" />
+      </Parameters>
+      <Docs>
+        <param name="m">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QuaternionFromMatrix">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion QuaternionFromMatrix (UnityEngine.Matrix4x4 m);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="m" Type="UnityEngine.Matrix4x4" />
+      </Parameters>
+      <Docs>
+        <param name="m">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QuaternionNormalize">
+      <MemberSignature Language="C#" Value="public static void QuaternionNormalize (ref UnityEngine.Quaternion q);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="q" Type="UnityEngine.Quaternion&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="q">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slerp">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Quaternion Slerp (UnityEngine.Quaternion p, UnityEngine.Quaternion q, float t);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Quaternion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="p" Type="UnityEngine.Quaternion" />
+        <Parameter Name="q" Type="UnityEngine.Quaternion" />
+        <Parameter Name="t" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="p">To be added.</param>
+        <param name="q">To be added.</param>
+        <param name="t">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

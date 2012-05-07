@@ -1,0 +1,481 @@
+<Type Name="SubstanceImporter" FullName="UnityEditor.SubstanceImporter">
+  <TypeSignature Language="C#" Value="public sealed class SubstanceImporter : UnityEditor.AssetImporter" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEditor.AssetImporter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubstanceImporter ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloneMaterial">
+      <MemberSignature Language="C#" Value="public bool CloneMaterial (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DestroyMaterial">
+      <MemberSignature Language="C#" Value="public void DestroyMaterial (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimationUpdateRate">
+      <MemberSignature Language="C#" Value="public int GetAnimationUpdateRate (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGenerateAllOutputs">
+      <MemberSignature Language="C#" Value="public bool GetGenerateAllOutputs (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLoadTimeGenerated">
+      <MemberSignature Language="C#" Value="public bool GetLoadTimeGenerated (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMaterialCount">
+      <MemberSignature Language="C#" Value="public int GetMaterialCount ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMaterialOffset">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 GetMaterialOffset (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMaterials">
+      <MemberSignature Language="C#" Value="public UnityEngine.ProceduralMaterial[] GetMaterials ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.ProceduralMaterial[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMaterialScale">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 GetMaterialScale (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrototypeNames">
+      <MemberSignature Language="C#" Value="public string[] GetPrototypeNames ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTextureAlphaSource">
+      <MemberSignature Language="C#" Value="public UnityEditor.ProceduralOutputType GetTextureAlphaSource (UnityEngine.ProceduralMaterial material, string textureName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.ProceduralOutputType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="textureName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="textureName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstantiateMaterial">
+      <MemberSignature Language="C#" Value="public void InstantiateMaterial (string prototypeName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="prototypeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="prototypeName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnShaderModified">
+      <MemberSignature Language="C#" Value="public void OnShaderModified (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RenameMaterial">
+      <MemberSignature Language="C#" Value="public void RenameMaterial (UnityEngine.ProceduralMaterial material, string name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetMaterial">
+      <MemberSignature Language="C#" Value="public void ResetMaterial (UnityEngine.ProceduralMaterial material);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAnimationUpdateRate">
+      <MemberSignature Language="C#" Value="public void SetAnimationUpdateRate (UnityEngine.ProceduralMaterial material, int animation_update_rate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="animation_update_rate" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="animation_update_rate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetGenerateAllOutputs">
+      <MemberSignature Language="C#" Value="public void SetGenerateAllOutputs (UnityEngine.ProceduralMaterial material, bool generated);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="generated" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="generated">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLoadTimeGenerated">
+      <MemberSignature Language="C#" Value="public void SetLoadTimeGenerated (UnityEngine.ProceduralMaterial material, bool generated);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="generated" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="generated">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaterialOffset">
+      <MemberSignature Language="C#" Value="public void SetMaterialOffset (UnityEngine.ProceduralMaterial material, UnityEngine.Vector2 offset);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="offset" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="offset">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMaterialScale">
+      <MemberSignature Language="C#" Value="public void SetMaterialScale (UnityEngine.ProceduralMaterial material, UnityEngine.Vector2 scale);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="scale" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="scale">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTextureAlphaSource">
+      <MemberSignature Language="C#" Value="public void SetTextureAlphaSource (UnityEngine.ProceduralMaterial material, string textureName, UnityEditor.ProceduralOutputType alphaSource);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="material" Type="UnityEngine.ProceduralMaterial" />
+        <Parameter Name="textureName" Type="System.String" />
+        <Parameter Name="alphaSource" Type="UnityEditor.ProceduralOutputType" />
+      </Parameters>
+      <Docs>
+        <param name="material">To be added.</param>
+        <param name="textureName">To be added.</param>
+        <param name="alphaSource">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

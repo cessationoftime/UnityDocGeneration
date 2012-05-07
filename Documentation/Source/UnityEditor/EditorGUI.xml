@@ -1,0 +1,3906 @@
+<Type Name="EditorGUI" FullName="UnityEditor.EditorGUI">
+  <TypeSignature Language="C#" Value="public sealed class EditorGUI" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EditorGUI ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="actionKey">
+      <MemberSignature Language="C#" Value="public static bool actionKey { get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginChangeCheck">
+      <MemberSignature Language="C#" Value="public static void BeginChangeCheck ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDisabledGroup">
+      <MemberSignature Language="C#" Value="public static void BeginDisabledGroup (bool disabled);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disabled" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disabled">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginProperty">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUIContent BeginProperty (UnityEngine.Rect totalPosition, UnityEngine.GUIContent label, UnityEditor.SerializedProperty property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="totalPosition" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+      </Parameters>
+      <Docs>
+        <param name="totalPosition">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="property">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundsField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Bounds BoundsField (UnityEngine.Rect position, UnityEngine.Bounds value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Bounds</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="UnityEngine.Bounds" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundsField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Bounds BoundsField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.Bounds value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Bounds</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="UnityEngine.Bounds" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color ColorField (UnityEngine.Rect position, UnityEngine.Color value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color ColorField (UnityEngine.Rect position, string label, UnityEngine.Color value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color ColorField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.Color value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurveField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationCurve CurveField (UnityEngine.Rect position, UnityEngine.AnimationCurve value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="UnityEngine.AnimationCurve" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurveField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationCurve CurveField (UnityEngine.Rect position, string label, UnityEngine.AnimationCurve value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="UnityEngine.AnimationCurve" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurveField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationCurve CurveField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.AnimationCurve value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="UnityEngine.AnimationCurve" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurveField">
+      <MemberSignature Language="C#" Value="public static void CurveField (UnityEngine.Rect position, UnityEditor.SerializedProperty value, UnityEngine.Color color, UnityEngine.Rect ranges);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="ranges" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="ranges">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurveField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationCurve CurveField (UnityEngine.Rect position, UnityEngine.AnimationCurve value, UnityEngine.Color color, UnityEngine.Rect ranges);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="UnityEngine.AnimationCurve" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="ranges" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="ranges">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurveField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationCurve CurveField (UnityEngine.Rect position, string label, UnityEngine.AnimationCurve value, UnityEngine.Color color, UnityEngine.Rect ranges);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="UnityEngine.AnimationCurve" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="ranges" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="ranges">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurveField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationCurve CurveField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.AnimationCurve value, UnityEngine.Color color, UnityEngine.Rect ranges);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="UnityEngine.AnimationCurve" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="ranges" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="ranges">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoPasswordField">
+      <MemberSignature Language="C#" Value="public static string DoPasswordField (int id, UnityEngine.Rect position, string password, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoPasswordField">
+      <MemberSignature Language="C#" Value="public static string DoPasswordField (int id, UnityEngine.Rect position, UnityEngine.GUIContent label, string password, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawPreviewTexture">
+      <MemberSignature Language="C#" Value="public static void DrawPreviewTexture (UnityEngine.Rect position, UnityEngine.Texture image);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawPreviewTexture">
+      <MemberSignature Language="C#" Value="public static void DrawPreviewTexture (UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.Material mat);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+        <Parameter Name="mat" Type="UnityEngine.Material" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="mat">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawPreviewTexture">
+      <MemberSignature Language="C#" Value="public static void DrawPreviewTexture (UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.Material mat, UnityEngine.ScaleMode scaleMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+        <Parameter Name="mat" Type="UnityEngine.Material" />
+        <Parameter Name="scaleMode" Type="UnityEngine.ScaleMode" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="mat">To be added.</param>
+        <param name="scaleMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawPreviewTexture">
+      <MemberSignature Language="C#" Value="public static void DrawPreviewTexture (UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.Material mat, UnityEngine.ScaleMode scaleMode, float imageAspect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+        <Parameter Name="mat" Type="UnityEngine.Material" />
+        <Parameter Name="scaleMode" Type="UnityEngine.ScaleMode" />
+        <Parameter Name="imageAspect" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="mat">To be added.</param>
+        <param name="scaleMode">To be added.</param>
+        <param name="imageAspect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTextureAlpha">
+      <MemberSignature Language="C#" Value="public static void DrawTextureAlpha (UnityEngine.Rect position, UnityEngine.Texture image);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTextureAlpha">
+      <MemberSignature Language="C#" Value="public static void DrawTextureAlpha (UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+        <Parameter Name="scaleMode" Type="UnityEngine.ScaleMode" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="scaleMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTextureAlpha">
+      <MemberSignature Language="C#" Value="public static void DrawTextureAlpha (UnityEngine.Rect position, UnityEngine.Texture image, UnityEngine.ScaleMode scaleMode, float imageAspect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="image" Type="UnityEngine.Texture" />
+        <Parameter Name="scaleMode" Type="UnityEngine.ScaleMode" />
+        <Parameter Name="imageAspect" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="image">To be added.</param>
+        <param name="scaleMode">To be added.</param>
+        <param name="imageAspect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropShadowLabel">
+      <MemberSignature Language="C#" Value="public static void DropShadowLabel (UnityEngine.Rect position, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropShadowLabel">
+      <MemberSignature Language="C#" Value="public static void DropShadowLabel (UnityEngine.Rect position, UnityEngine.GUIContent content);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropShadowLabel">
+      <MemberSignature Language="C#" Value="public static void DropShadowLabel (UnityEngine.Rect position, string text, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropShadowLabel">
+      <MemberSignature Language="C#" Value="public static void DropShadowLabel (UnityEngine.Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndChangeCheck">
+      <MemberSignature Language="C#" Value="public static bool EndChangeCheck ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDisabledGroup">
+      <MemberSignature Language="C#" Value="public static void EndDisabledGroup ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndProperty">
+      <MemberSignature Language="C#" Value="public static void EndProperty ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumMaskField">
+      <MemberSignature Language="C#" Value="public static Enum EnumMaskField (UnityEngine.Rect position, Enum enumValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="enumValue" Type="System.Enum" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="enumValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumMaskField">
+      <MemberSignature Language="C#" Value="public static Enum EnumMaskField (UnityEngine.Rect position, Enum enumValue, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="enumValue" Type="System.Enum" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="enumValue">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumMaskField">
+      <MemberSignature Language="C#" Value="public static Enum EnumMaskField (UnityEngine.Rect position, string label, Enum enumValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="enumValue" Type="System.Enum" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="enumValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumMaskField">
+      <MemberSignature Language="C#" Value="public static Enum EnumMaskField (UnityEngine.Rect position, UnityEngine.GUIContent label, Enum enumValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="enumValue" Type="System.Enum" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="enumValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumMaskField">
+      <MemberSignature Language="C#" Value="public static Enum EnumMaskField (UnityEngine.Rect position, string label, Enum enumValue, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="enumValue" Type="System.Enum" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="enumValue">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumMaskField">
+      <MemberSignature Language="C#" Value="public static Enum EnumMaskField (UnityEngine.Rect position, UnityEngine.GUIContent label, Enum enumValue, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="enumValue" Type="System.Enum" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="enumValue">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumPopup">
+      <MemberSignature Language="C#" Value="public static Enum EnumPopup (UnityEngine.Rect position, Enum selected);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selected" Type="System.Enum" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selected">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumPopup">
+      <MemberSignature Language="C#" Value="public static Enum EnumPopup (UnityEngine.Rect position, Enum selected, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selected" Type="System.Enum" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selected">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumPopup">
+      <MemberSignature Language="C#" Value="public static Enum EnumPopup (UnityEngine.Rect position, string label, Enum selected);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="selected" Type="System.Enum" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selected">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumPopup">
+      <MemberSignature Language="C#" Value="public static Enum EnumPopup (UnityEngine.Rect position, UnityEngine.GUIContent label, Enum selected);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="selected" Type="System.Enum" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selected">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumPopup">
+      <MemberSignature Language="C#" Value="public static Enum EnumPopup (UnityEngine.Rect position, string label, Enum selected, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="selected" Type="System.Enum" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selected">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnumPopup">
+      <MemberSignature Language="C#" Value="public static Enum EnumPopup (UnityEngine.Rect position, UnityEngine.GUIContent label, Enum selected, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Enum</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="selected" Type="System.Enum" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selected">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FloatField">
+      <MemberSignature Language="C#" Value="public static float FloatField (UnityEngine.Rect position, float value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FloatField">
+      <MemberSignature Language="C#" Value="public static float FloatField (UnityEngine.Rect position, float value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FloatField">
+      <MemberSignature Language="C#" Value="public static float FloatField (UnityEngine.Rect position, string label, float value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FloatField">
+      <MemberSignature Language="C#" Value="public static float FloatField (UnityEngine.Rect position, UnityEngine.GUIContent label, float value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FloatField">
+      <MemberSignature Language="C#" Value="public static float FloatField (UnityEngine.Rect position, string label, float value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FloatField">
+      <MemberSignature Language="C#" Value="public static float FloatField (UnityEngine.Rect position, UnityEngine.GUIContent label, float value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, string content);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, UnityEngine.GUIContent content);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, string content, bool toggleOnLabelClick);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="System.String" />
+        <Parameter Name="toggleOnLabelClick" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="toggleOnLabelClick">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, string content, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, UnityEngine.GUIContent content, bool toggleOnLabelClick);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+        <Parameter Name="toggleOnLabelClick" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="toggleOnLabelClick">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, UnityEngine.GUIContent content, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, string content, bool toggleOnLabelClick, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="System.String" />
+        <Parameter Name="toggleOnLabelClick" Type="System.Boolean" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="toggleOnLabelClick">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Foldout">
+      <MemberSignature Language="C#" Value="public static bool Foldout (UnityEngine.Rect position, bool foldout, UnityEngine.GUIContent content, bool toggleOnLabelClick, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="content" Type="UnityEngine.GUIContent" />
+        <Parameter Name="toggleOnLabelClick" Type="System.Boolean" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="content">To be added.</param>
+        <param name="toggleOnLabelClick">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HelpBox">
+      <MemberSignature Language="C#" Value="public static void HelpBox (UnityEngine.Rect position, string message, UnityEditor.MessageType type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="type" Type="UnityEditor.MessageType" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndentedRect">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect IndentedRect (UnityEngine.Rect source);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="source" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="source">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="indentLevel">
+      <MemberSignature Language="C#" Value="public static int indentLevel { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InspectorTitlebar">
+      <MemberSignature Language="C#" Value="public static bool InspectorTitlebar (UnityEngine.Rect position, bool foldout, UnityEngine.Object targetObj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="targetObj" Type="UnityEngine.Object" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="targetObj">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InspectorTitlebar">
+      <MemberSignature Language="C#" Value="public static bool InspectorTitlebar (UnityEngine.Rect position, bool foldout, UnityEngine.Object[] targetObjs);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="foldout" Type="System.Boolean" />
+        <Parameter Name="targetObjs" Type="UnityEngine.Object[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="foldout">To be added.</param>
+        <param name="targetObjs">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntField">
+      <MemberSignature Language="C#" Value="public static int IntField (UnityEngine.Rect position, int value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntField">
+      <MemberSignature Language="C#" Value="public static int IntField (UnityEngine.Rect position, int value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntField">
+      <MemberSignature Language="C#" Value="public static int IntField (UnityEngine.Rect position, string label, int value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntField">
+      <MemberSignature Language="C#" Value="public static int IntField (UnityEngine.Rect position, UnityEngine.GUIContent label, int value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntField">
+      <MemberSignature Language="C#" Value="public static int IntField (UnityEngine.Rect position, string label, int value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntField">
+      <MemberSignature Language="C#" Value="public static int IntField (UnityEngine.Rect position, UnityEngine.GUIContent label, int value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, int selectedValue, string[] displayedOptions, int[] optionValues);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, int selectedValue, UnityEngine.GUIContent[] displayedOptions, int[] optionValues);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static void IntPopup (UnityEngine.Rect position, UnityEditor.SerializedProperty property, UnityEngine.GUIContent[] displayedOptions, int[] optionValues);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, int selectedValue, string[] displayedOptions, int[] optionValues, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, int selectedValue, UnityEngine.GUIContent[] displayedOptions, int[] optionValues, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, string label, int selectedValue, string[] displayedOptions, int[] optionValues);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static void IntPopup (UnityEngine.Rect position, UnityEditor.SerializedProperty property, UnityEngine.GUIContent[] displayedOptions, int[] optionValues, UnityEngine.GUIContent label);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <param name="label">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, UnityEngine.GUIContent label, int selectedValue, UnityEngine.GUIContent[] displayedOptions, int[] optionValues);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, string label, int selectedValue, string[] displayedOptions, int[] optionValues, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntPopup">
+      <MemberSignature Language="C#" Value="public static int IntPopup (UnityEngine.Rect position, UnityEngine.GUIContent label, int selectedValue, UnityEngine.GUIContent[] displayedOptions, int[] optionValues, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="selectedValue" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="optionValues" Type="System.Int32[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedValue">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="optionValues">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntSlider">
+      <MemberSignature Language="C#" Value="public static int IntSlider (UnityEngine.Rect position, int value, int leftValue, int rightValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="leftValue" Type="System.Int32" />
+        <Parameter Name="rightValue" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntSlider">
+      <MemberSignature Language="C#" Value="public static int IntSlider (UnityEngine.Rect position, string label, int value, int leftValue, int rightValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="leftValue" Type="System.Int32" />
+        <Parameter Name="rightValue" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IntSlider">
+      <MemberSignature Language="C#" Value="public static int IntSlider (UnityEngine.Rect position, UnityEngine.GUIContent label, int value, int leftValue, int rightValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Int32" />
+        <Parameter Name="leftValue" Type="System.Int32" />
+        <Parameter Name="rightValue" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, string label);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, UnityEngine.GUIContent label);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, string label, string label2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="label2" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="label2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, string label, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.GUIContent label2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="label2" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="label2">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, string label, string label2, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="label2" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="label2">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelField">
+      <MemberSignature Language="C#" Value="public static void LabelField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.GUIContent label2, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="label2" Type="UnityEngine.GUIContent" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="label2">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayerField">
+      <MemberSignature Language="C#" Value="public static int LayerField (UnityEngine.Rect position, int layer);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="layer" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="layer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayerField">
+      <MemberSignature Language="C#" Value="public static int LayerField (UnityEngine.Rect position, int layer, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="layer" Type="System.Int32" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayerField">
+      <MemberSignature Language="C#" Value="public static int LayerField (UnityEngine.Rect position, string label, int layer);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="layer" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="layer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayerField">
+      <MemberSignature Language="C#" Value="public static int LayerField (UnityEngine.Rect position, UnityEngine.GUIContent label, int layer);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="layer" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="layer">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayerField">
+      <MemberSignature Language="C#" Value="public static int LayerField (UnityEngine.Rect position, string label, int layer, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="layer" Type="System.Int32" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayerField">
+      <MemberSignature Language="C#" Value="public static int LayerField (UnityEngine.Rect position, UnityEngine.GUIContent label, int layer, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="layer" Type="System.Int32" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="layer">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskField">
+      <MemberSignature Language="C#" Value="public static int MaskField (UnityEngine.Rect position, int mask, string[] displayedOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="mask" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="mask">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskField">
+      <MemberSignature Language="C#" Value="public static int MaskField (UnityEngine.Rect position, int mask, string[] displayedOptions, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="mask" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="mask">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskField">
+      <MemberSignature Language="C#" Value="public static int MaskField (UnityEngine.Rect position, string label, int mask, string[] displayedOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="mask" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="mask">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskField">
+      <MemberSignature Language="C#" Value="public static int MaskField (UnityEngine.Rect position, UnityEngine.GUIContent label, int mask, string[] displayedOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="mask" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="mask">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskField">
+      <MemberSignature Language="C#" Value="public static int MaskField (UnityEngine.Rect position, string label, int mask, string[] displayedOptions, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="mask" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="mask">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskField">
+      <MemberSignature Language="C#" Value="public static int MaskField (UnityEngine.Rect position, UnityEngine.GUIContent label, int mask, string[] displayedOptions, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="mask" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="mask">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinMaxSlider">
+      <MemberSignature Language="C#" Value="public static void MinMaxSlider (UnityEngine.Rect position, ref float minValue, ref float maxValue, float minLimit, float maxLimit);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="minValue" Type="System.Single&amp;" RefType="ref" />
+        <Parameter Name="maxValue" Type="System.Single&amp;" RefType="ref" />
+        <Parameter Name="minLimit" Type="System.Single" />
+        <Parameter Name="maxLimit" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="minValue">To be added.</param>
+        <param name="maxValue">To be added.</param>
+        <param name="minLimit">To be added.</param>
+        <param name="maxLimit">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinMaxSlider">
+      <MemberSignature Language="C#" Value="public static void MinMaxSlider (UnityEngine.GUIContent label, UnityEngine.Rect position, ref float minValue, ref float maxValue, float minLimit, float maxLimit);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="minValue" Type="System.Single&amp;" RefType="ref" />
+        <Parameter Name="maxValue" Type="System.Single&amp;" RefType="ref" />
+        <Parameter Name="minLimit" Type="System.Single" />
+        <Parameter Name="maxLimit" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="label">To be added.</param>
+        <param name="position">To be added.</param>
+        <param name="minValue">To be added.</param>
+        <param name="maxValue">To be added.</param>
+        <param name="minLimit">To be added.</param>
+        <param name="maxLimit">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object ObjectField (UnityEngine.Rect position, UnityEngine.Object obj, Type objType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Check the docs for the usage of the new parameter 'allowSceneObjects'.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+        <Parameter Name="objType" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="obj">To be added.</param>
+        <param name="objType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object ObjectField (UnityEngine.Rect position, string label, UnityEngine.Object obj, Type objType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Check the docs for the usage of the new parameter 'allowSceneObjects'.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+        <Parameter Name="objType" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="obj">To be added.</param>
+        <param name="objType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object ObjectField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.Object obj, Type objType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("Check the docs for the usage of the new parameter 'allowSceneObjects'.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+        <Parameter Name="objType" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="obj">To be added.</param>
+        <param name="objType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object ObjectField (UnityEngine.Rect position, UnityEngine.Object obj, Type objType, bool allowSceneObjects);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+        <Parameter Name="objType" Type="System.Type" />
+        <Parameter Name="allowSceneObjects" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="obj">To be added.</param>
+        <param name="objType">To be added.</param>
+        <param name="allowSceneObjects">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object ObjectField (UnityEngine.Rect position, string label, UnityEngine.Object obj, Type objType, bool allowSceneObjects);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+        <Parameter Name="objType" Type="System.Type" />
+        <Parameter Name="allowSceneObjects" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="obj">To be added.</param>
+        <param name="objType">To be added.</param>
+        <param name="allowSceneObjects">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object ObjectField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.Object obj, Type objType, bool allowSceneObjects);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+        <Parameter Name="objType" Type="System.Type" />
+        <Parameter Name="allowSceneObjects" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="obj">To be added.</param>
+        <param name="objType">To be added.</param>
+        <param name="allowSceneObjects">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (UnityEngine.Rect position, string password);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (UnityEngine.Rect position, string label, string password);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (UnityEngine.Rect position, string password, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (UnityEngine.Rect position, UnityEngine.GUIContent label, string password);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="password" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="password">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (UnityEngine.Rect position, string label, string password, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasswordField">
+      <MemberSignature Language="C#" Value="public static string PasswordField (UnityEngine.Rect position, UnityEngine.GUIContent label, string password, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="password" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="password">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, int selectedIndex, string[] displayedOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, int selectedIndex, UnityEngine.GUIContent[] displayedOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, int selectedIndex, string[] displayedOptions, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, int selectedIndex, UnityEngine.GUIContent[] displayedOptions, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, string label, int selectedIndex, string[] displayedOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, UnityEngine.GUIContent label, int selectedIndex, UnityEngine.GUIContent[] displayedOptions);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, string label, int selectedIndex, string[] displayedOptions, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="System.String[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Popup">
+      <MemberSignature Language="C#" Value="public static int Popup (UnityEngine.Rect position, UnityEngine.GUIContent label, int selectedIndex, UnityEngine.GUIContent[] displayedOptions, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="selectedIndex" Type="System.Int32" />
+        <Parameter Name="displayedOptions" Type="UnityEngine.GUIContent[]" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="selectedIndex">To be added.</param>
+        <param name="displayedOptions">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrefixLabel">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect PrefixLabel (UnityEngine.Rect totalPosition, int id, UnityEngine.GUIContent label);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="totalPosition" Type="UnityEngine.Rect" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="totalPosition">To be added.</param>
+        <param name="id">To be added.</param>
+        <param name="label">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProgressBar">
+      <MemberSignature Language="C#" Value="public static void ProgressBar (UnityEngine.Rect position, float value, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyField">
+      <MemberSignature Language="C#" Value="public static bool PropertyField (UnityEngine.Rect position, UnityEditor.SerializedProperty property);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyField">
+      <MemberSignature Language="C#" Value="public static bool PropertyField (UnityEngine.Rect position, UnityEditor.SerializedProperty property, bool includeChildren);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="includeChildren" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="includeChildren">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyField">
+      <MemberSignature Language="C#" Value="public static bool PropertyField (UnityEngine.Rect position, UnityEditor.SerializedProperty property, UnityEngine.GUIContent label);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="label">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyField">
+      <MemberSignature Language="C#" Value="public static bool PropertyField (UnityEngine.Rect position, UnityEditor.SerializedProperty property, UnityEngine.GUIContent label, bool includeChildren);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="includeChildren" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="includeChildren">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect RectField (UnityEngine.Rect position, UnityEngine.Rect value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect RectField (UnityEngine.Rect position, string label, UnityEngine.Rect value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RectField">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Rect RectField (UnityEngine.Rect position, UnityEngine.GUIContent label, UnityEngine.Rect value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Rect</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectableLabel">
+      <MemberSignature Language="C#" Value="public static void SelectableLabel (UnityEngine.Rect position, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectableLabel">
+      <MemberSignature Language="C#" Value="public static void SelectableLabel (UnityEngine.Rect position, string text, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="showMixedValue">
+      <MemberSignature Language="C#" Value="public static bool showMixedValue { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static float Slider (UnityEngine.Rect position, float value, float leftValue, float rightValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="leftValue" Type="System.Single" />
+        <Parameter Name="rightValue" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static void Slider (UnityEngine.Rect position, UnityEditor.SerializedProperty property, float leftValue, float rightValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="leftValue" Type="System.Single" />
+        <Parameter Name="rightValue" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static float Slider (UnityEngine.Rect position, string label, float value, float leftValue, float rightValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="leftValue" Type="System.Single" />
+        <Parameter Name="rightValue" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static void Slider (UnityEngine.Rect position, UnityEditor.SerializedProperty property, float leftValue, float rightValue, string label);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="leftValue" Type="System.Single" />
+        <Parameter Name="rightValue" Type="System.Single" />
+        <Parameter Name="label" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="label">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static void Slider (UnityEngine.Rect position, UnityEditor.SerializedProperty property, float leftValue, float rightValue, UnityEngine.GUIContent label);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="leftValue" Type="System.Single" />
+        <Parameter Name="rightValue" Type="System.Single" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <param name="label">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slider">
+      <MemberSignature Language="C#" Value="public static float Slider (UnityEngine.Rect position, UnityEngine.GUIContent label, float value, float leftValue, float rightValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Single" />
+        <Parameter Name="leftValue" Type="System.Single" />
+        <Parameter Name="rightValue" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="leftValue">To be added.</param>
+        <param name="rightValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagField">
+      <MemberSignature Language="C#" Value="public static string TagField (UnityEngine.Rect position, string tag);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="tag" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="tag">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagField">
+      <MemberSignature Language="C#" Value="public static string TagField (UnityEngine.Rect position, string label, string tag);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="tag" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="tag">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagField">
+      <MemberSignature Language="C#" Value="public static string TagField (UnityEngine.Rect position, string tag, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="tag" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="tag">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagField">
+      <MemberSignature Language="C#" Value="public static string TagField (UnityEngine.Rect position, UnityEngine.GUIContent label, string tag);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="tag" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="tag">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagField">
+      <MemberSignature Language="C#" Value="public static string TagField (UnityEngine.Rect position, string label, string tag, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="tag" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="tag">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagField">
+      <MemberSignature Language="C#" Value="public static string TagField (UnityEngine.Rect position, UnityEngine.GUIContent label, string tag, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="tag" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="tag">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextArea">
+      <MemberSignature Language="C#" Value="public static string TextArea (UnityEngine.Rect position, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextArea">
+      <MemberSignature Language="C#" Value="public static string TextArea (UnityEngine.Rect position, string text, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (UnityEngine.Rect position, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (UnityEngine.Rect position, string label, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (UnityEngine.Rect position, string text, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (UnityEngine.Rect position, UnityEngine.GUIContent label, string text);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="text">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (UnityEngine.Rect position, string label, string text, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextField">
+      <MemberSignature Language="C#" Value="public static string TextField (UnityEngine.Rect position, UnityEngine.GUIContent label, string text, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="text">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (UnityEngine.Rect position, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (UnityEngine.Rect position, bool value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="value" Type="System.Boolean" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (UnityEngine.Rect position, string label, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (UnityEngine.Rect position, UnityEngine.GUIContent label, bool value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (UnityEngine.Rect position, string label, bool value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="System.Boolean" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Toggle">
+      <MemberSignature Language="C#" Value="public static bool Toggle (UnityEngine.Rect position, UnityEngine.GUIContent label, bool value, UnityEngine.GUIStyle style);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="UnityEngine.GUIContent" />
+        <Parameter Name="value" Type="System.Boolean" />
+        <Parameter Name="style" Type="UnityEngine.GUIStyle" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <param name="style">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Vector2Field">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 Vector2Field (UnityEngine.Rect position, string label, UnityEngine.Vector2 value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Vector3Field">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector3 Vector3Field (UnityEngine.Rect position, string label, UnityEngine.Vector3 value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector3</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="UnityEngine.Vector3" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Vector4Field">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector4 Vector4Field (UnityEngine.Rect position, string label, UnityEngine.Vector4 value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector4</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="label" Type="System.String" />
+        <Parameter Name="value" Type="UnityEngine.Vector4" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="label">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

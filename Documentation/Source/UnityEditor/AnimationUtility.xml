@@ -1,0 +1,476 @@
+<Type Name="AnimationUtility" FullName="UnityEditor.AnimationUtility">
+  <TypeSignature Language="C#" Value="public sealed class AnimationUtility" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AnimationUtility ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculateTransformPath">
+      <MemberSignature Language="C#" Value="public static string CalculateTransformPath (UnityEngine.Transform targetTransform, UnityEngine.Transform root);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetTransform" Type="UnityEngine.Transform" />
+        <Parameter Name="root" Type="UnityEngine.Transform" />
+      </Parameters>
+      <Docs>
+        <param name="targetTransform">To be added.</param>
+        <param name="root">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConstrainToPolynomialCurve">
+      <MemberSignature Language="C#" Value="public static void ConstrainToPolynomialCurve (UnityEngine.AnimationCurve curve);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="curve" Type="UnityEngine.AnimationCurve" />
+      </Parameters>
+      <Docs>
+        <param name="curve">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllCurves">
+      <MemberSignature Language="C#" Value="public static UnityEditor.AnimationClipCurveData[] GetAllCurves (UnityEngine.AnimationClip clip);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AnimationClipCurveData[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip" />
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAllCurves">
+      <MemberSignature Language="C#" Value="public static UnityEditor.AnimationClipCurveData[] GetAllCurves (UnityEngine.AnimationClip clip, bool includeCurveData);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AnimationClipCurveData[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip" />
+        <Parameter Name="includeCurveData" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <param name="includeCurveData">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimatableObjects">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object[] GetAnimatableObjects (UnityEngine.GameObject go);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="go" Type="UnityEngine.GameObject" />
+      </Parameters>
+      <Docs>
+        <param name="go">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimatableProperties">
+      <MemberSignature Language="C#" Value="public static UnityEditor.AnimationClipCurveData[] GetAnimatableProperties (UnityEngine.GameObject go);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AnimationClipCurveData[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="go" Type="UnityEngine.GameObject" />
+      </Parameters>
+      <Docs>
+        <param name="go">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimatablePropertiesForObject">
+      <MemberSignature Language="C#" Value="public static UnityEditor.AnimationClipCurveData[] GetAnimatablePropertiesForObject (UnityEngine.Object animatedObject, UnityEngine.GameObject gameObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEditor.AnimationClipCurveData[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="animatedObject" Type="UnityEngine.Object" />
+        <Parameter Name="gameObject" Type="UnityEngine.GameObject" />
+      </Parameters>
+      <Docs>
+        <param name="animatedObject">To be added.</param>
+        <param name="gameObject">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimationClips">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationClip[] GetAnimationClips (UnityEngine.Animation component);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationClip[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="component" Type="UnityEngine.Animation" />
+      </Parameters>
+      <Docs>
+        <param name="component">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAnimationEvents">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationEvent[] GetAnimationEvents (UnityEngine.AnimationClip clip);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationEvent[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip" />
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEditorCurve">
+      <MemberSignature Language="C#" Value="public static UnityEngine.AnimationCurve GetEditorCurve (UnityEngine.AnimationClip clip, string relativePath, Type type, string propertyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.AnimationCurve</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip" />
+        <Parameter Name="relativePath" Type="System.String" />
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="propertyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <param name="relativePath">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFloatValue">
+      <MemberSignature Language="C#" Value="public static bool GetFloatValue (UnityEngine.GameObject root, string relativePath, Type type, string propertyName, out float data);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="root" Type="UnityEngine.GameObject" />
+        <Parameter Name="relativePath" Type="System.String" />
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="propertyName" Type="System.String" />
+        <Parameter Name="data" Type="System.Single&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="root">To be added.</param>
+        <param name="relativePath">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <param name="data">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InAnimationMode">
+      <MemberSignature Language="C#" Value="public static bool InAnimationMode ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValidPolynomialCurve">
+      <MemberSignature Language="C#" Value="public static bool IsValidPolynomialCurve (UnityEngine.AnimationCurve curve);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="curve" Type="UnityEngine.AnimationCurve" />
+      </Parameters>
+      <Docs>
+        <param name="curve">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAnimationClips">
+      <MemberSignature Language="C#" Value="public static void SetAnimationClips (UnityEngine.Animation component, UnityEngine.AnimationClip[] clips);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="component" Type="UnityEngine.Animation" />
+        <Parameter Name="clips" Type="UnityEngine.AnimationClip[]" />
+      </Parameters>
+      <Docs>
+        <param name="component">To be added.</param>
+        <param name="clips">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAnimationEvents">
+      <MemberSignature Language="C#" Value="public static void SetAnimationEvents (UnityEngine.AnimationClip clip, UnityEngine.AnimationEvent[] events);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip" />
+        <Parameter Name="events" Type="UnityEngine.AnimationEvent[]" />
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <param name="events">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEditorCurve">
+      <MemberSignature Language="C#" Value="public static void SetEditorCurve (UnityEngine.AnimationClip clip, string relativePath, Type type, string propertyName, UnityEngine.AnimationCurve curve);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clip" Type="UnityEngine.AnimationClip" />
+        <Parameter Name="relativePath" Type="System.String" />
+        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="propertyName" Type="System.String" />
+        <Parameter Name="curve" Type="UnityEngine.AnimationCurve" />
+      </Parameters>
+      <Docs>
+        <param name="clip">To be added.</param>
+        <param name="relativePath">To be added.</param>
+        <param name="type">To be added.</param>
+        <param name="propertyName">To be added.</param>
+        <param name="curve">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartAnimationMode">
+      <MemberSignature Language="C#" Value="public static void StartAnimationMode (UnityEngine.Object[] objects);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="objects" Type="UnityEngine.Object[]" />
+      </Parameters>
+      <Docs>
+        <param name="objects">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAnimationMode">
+      <MemberSignature Language="C#" Value="public static void StopAnimationMode ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

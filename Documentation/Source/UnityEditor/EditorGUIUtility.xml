@@ -1,0 +1,646 @@
+<Type Name="EditorGUIUtility" FullName="UnityEditor.EditorGUIUtility">
+  <TypeSignature Language="C#" Value="public sealed class EditorGUIUtility : UnityEngine.GUIUtility" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.GUIUtility</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EditorGUIUtility ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddCursorRect">
+      <MemberSignature Language="C#" Value="public static void AddCursorRect (UnityEngine.Rect position, UnityEditor.MouseCursor mouse);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="mouse" Type="UnityEditor.MouseCursor" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="mouse">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandEvent">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Event CommandEvent (string commandName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Event</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="commandName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="commandName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawColorSwatch">
+      <MemberSignature Language="C#" Value="public static void DrawColorSwatch (UnityEngine.Rect position, UnityEngine.Color color);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="color">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCurveSwatch">
+      <MemberSignature Language="C#" Value="public static void DrawCurveSwatch (UnityEngine.Rect position, UnityEngine.AnimationCurve curve, UnityEditor.SerializedProperty property, UnityEngine.Color color, UnityEngine.Color bgColor);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="curve" Type="UnityEngine.AnimationCurve" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="bgColor" Type="UnityEngine.Color" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="curve">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawCurveSwatch">
+      <MemberSignature Language="C#" Value="public static void DrawCurveSwatch (UnityEngine.Rect position, UnityEngine.AnimationCurve curve, UnityEditor.SerializedProperty property, UnityEngine.Color color, UnityEngine.Color bgColor, UnityEngine.Rect curveRanges);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="curve" Type="UnityEngine.AnimationCurve" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="bgColor" Type="UnityEngine.Color" />
+        <Parameter Name="curveRanges" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="curve">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="curveRanges">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawRegionSwatch">
+      <MemberSignature Language="C#" Value="public static void DrawRegionSwatch (UnityEngine.Rect position, UnityEditor.SerializedProperty property, UnityEditor.SerializedProperty property2, UnityEngine.Color color, UnityEngine.Color bgColor, UnityEngine.Rect curveRanges);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="property" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="property2" Type="UnityEditor.SerializedProperty" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="bgColor" Type="UnityEngine.Color" />
+        <Parameter Name="curveRanges" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="property">To be added.</param>
+        <param name="property2">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="curveRanges">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawRegionSwatch">
+      <MemberSignature Language="C#" Value="public static void DrawRegionSwatch (UnityEngine.Rect position, UnityEngine.AnimationCurve curve, UnityEngine.AnimationCurve curve2, UnityEngine.Color color, UnityEngine.Color bgColor, UnityEngine.Rect curveRanges);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="position" Type="UnityEngine.Rect" />
+        <Parameter Name="curve" Type="UnityEngine.AnimationCurve" />
+        <Parameter Name="curve2" Type="UnityEngine.AnimationCurve" />
+        <Parameter Name="color" Type="UnityEngine.Color" />
+        <Parameter Name="bgColor" Type="UnityEngine.Color" />
+        <Parameter Name="curveRanges" Type="UnityEngine.Rect" />
+      </Parameters>
+      <Docs>
+        <param name="position">To be added.</param>
+        <param name="curve">To be added.</param>
+        <param name="curve2">To be added.</param>
+        <param name="color">To be added.</param>
+        <param name="bgColor">To be added.</param>
+        <param name="curveRanges">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindTexture">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Texture2D FindTexture (string name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBuiltinSkin">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUISkin GetBuiltinSkin (UnityEditor.EditorSkin skin);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUISkin</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="skin" Type="UnityEditor.EditorSkin" />
+      </Parameters>
+      <Docs>
+        <param name="skin">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIconSize">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Vector2 GetIconSize ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasObjectThumbnail">
+      <MemberSignature Language="C#" Value="public static bool HasObjectThumbnail (Type objType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="objType" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="objType">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HSVToRGB">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Color HSVToRGB (float H, float S, float V);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Color</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="H" Type="System.Single" />
+        <Parameter Name="S" Type="System.Single" />
+        <Parameter Name="V" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="H">To be added.</param>
+        <param name="S">To be added.</param>
+        <param name="V">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isProSkin">
+      <MemberSignature Language="C#" Value="public static bool isProSkin { get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object Load (string path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadRequired">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Object LoadRequired (string path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LookLikeControls">
+      <MemberSignature Language="C#" Value="public static void LookLikeControls ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LookLikeControls">
+      <MemberSignature Language="C#" Value="public static void LookLikeControls (float labelWidth);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="labelWidth" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="labelWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LookLikeControls">
+      <MemberSignature Language="C#" Value="public static void LookLikeControls (float labelWidth, float fieldWidth);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="labelWidth" Type="System.Single" />
+        <Parameter Name="fieldWidth" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="labelWidth">To be added.</param>
+        <param name="fieldWidth">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LookLikeInspector">
+      <MemberSignature Language="C#" Value="public static void LookLikeInspector ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="native">
+      <MemberSignature Language="C#" Value="public static UnityEngine.FocusType native;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.FocusType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectContent">
+      <MemberSignature Language="C#" Value="public static UnityEngine.GUIContent ObjectContent (UnityEngine.Object obj, Type type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GUIContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+        <Parameter Name="type" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PingObject">
+      <MemberSignature Language="C#" Value="public static void PingObject (int targetInstanceID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetInstanceID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="targetInstanceID">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PingObject">
+      <MemberSignature Language="C#" Value="public static void PingObject (UnityEngine.Object obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="UnityEngine.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueGameViewInputEvent">
+      <MemberSignature Language="C#" Value="public static void QueueGameViewInputEvent (UnityEngine.Event evt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="evt" Type="UnityEngine.Event" />
+      </Parameters>
+      <Docs>
+        <param name="evt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RenderGameViewCameras">
+      <MemberSignature Language="C#" Value="public static void RenderGameViewCameras (UnityEngine.Rect cameraRect, UnityEngine.Rect statsRect, bool stats, bool gizmos);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cameraRect" Type="UnityEngine.Rect" />
+        <Parameter Name="statsRect" Type="UnityEngine.Rect" />
+        <Parameter Name="stats" Type="System.Boolean" />
+        <Parameter Name="gizmos" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="cameraRect">To be added.</param>
+        <param name="statsRect">To be added.</param>
+        <param name="stats">To be added.</param>
+        <param name="gizmos">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RGBToHSV">
+      <MemberSignature Language="C#" Value="public static void RGBToHSV (UnityEngine.Color rgbColor, out float H, out float S, out float V);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rgbColor" Type="UnityEngine.Color" />
+        <Parameter Name="H" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="S" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="V" Type="System.Single&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="rgbColor">To be added.</param>
+        <param name="H">To be added.</param>
+        <param name="S">To be added.</param>
+        <param name="V">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIconSize">
+      <MemberSignature Language="C#" Value="public static void SetIconSize (UnityEngine.Vector2 size);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="size" Type="UnityEngine.Vector2" />
+      </Parameters>
+      <Docs>
+        <param name="size">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetWantsMouseJumping">
+      <MemberSignature Language="C#" Value="public static void SetWantsMouseJumping (int wantz);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="wantz" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="wantz">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="systemCopyBuffer">
+      <MemberSignature Language="C#" Value="public static string systemCopyBuffer { set; get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Member>
+    <Member MemberName="whiteTexture">
+      <MemberSignature Language="C#" Value="public static UnityEngine.Texture2D whiteTexture { get; }" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Texture2D</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: UnityEngine.WrapperlessIcall</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Member>
+  </Members>
+</Type>

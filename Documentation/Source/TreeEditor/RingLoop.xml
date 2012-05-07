@@ -1,0 +1,293 @@
+<Type Name="RingLoop" FullName="TreeEditor.RingLoop">
+  <TypeSignature Language="C#" Value="public class RingLoop" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RingLoop ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="baseOffset">
+      <MemberSignature Language="C#" Value="public float baseOffset;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildVertices">
+      <MemberSignature Language="C#" Value="public void BuildVertices (System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt; verts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="verts" Type="System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="verts">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cap">
+      <MemberSignature Language="C#" Value="public void Cap (float sphereFactor, float noise, int mappingMode, float mappingScale, System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt; verts, System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt; tris, int materialIndex);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sphereFactor" Type="System.Single" />
+        <Parameter Name="noise" Type="System.Single" />
+        <Parameter Name="mappingMode" Type="System.Int32" />
+        <Parameter Name="mappingScale" Type="System.Single" />
+        <Parameter Name="verts" Type="System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt;" />
+        <Parameter Name="tris" Type="System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt;" />
+        <Parameter Name="materialIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sphereFactor">To be added.</param>
+        <param name="noise">To be added.</param>
+        <param name="mappingMode">To be added.</param>
+        <param name="mappingScale">To be added.</param>
+        <param name="verts">To be added.</param>
+        <param name="tris">To be added.</param>
+        <param name="materialIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="public TreeEditor.RingLoop Clone ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.RingLoop</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connect">
+      <MemberSignature Language="C#" Value="public void Connect (TreeEditor.RingLoop other, System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt; tris, int materialIndex, bool flipTris, bool lowres);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="TreeEditor.RingLoop" />
+        <Parameter Name="tris" Type="System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt;" />
+        <Parameter Name="materialIndex" Type="System.Int32" />
+        <Parameter Name="flipTris" Type="System.Boolean" />
+        <Parameter Name="lowres" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <param name="tris">To be added.</param>
+        <param name="materialIndex">To be added.</param>
+        <param name="flipTris">To be added.</param>
+        <param name="lowres">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="radius">
+      <MemberSignature Language="C#" Value="public float radius;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset (float r, UnityEngine.Matrix4x4 m, float bOffset, int segs);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="r" Type="System.Single" />
+        <Parameter Name="m" Type="UnityEngine.Matrix4x4" />
+        <Parameter Name="bOffset" Type="System.Single" />
+        <Parameter Name="segs" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="r">To be added.</param>
+        <param name="m">To be added.</param>
+        <param name="bOffset">To be added.</param>
+        <param name="segs">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAnimationProperties">
+      <MemberSignature Language="C#" Value="public void SetAnimationProperties (float primaryFactor, float secondaryFactor, float edgeFactor, float phase);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="primaryFactor" Type="System.Single" />
+        <Parameter Name="secondaryFactor" Type="System.Single" />
+        <Parameter Name="edgeFactor" Type="System.Single" />
+        <Parameter Name="phase" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="primaryFactor">To be added.</param>
+        <param name="secondaryFactor">To be added.</param>
+        <param name="edgeFactor">To be added.</param>
+        <param name="phase">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFlares">
+      <MemberSignature Language="C#" Value="public void SetFlares (float radius, float noise);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="radius" Type="System.Single" />
+        <Parameter Name="noise" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="radius">To be added.</param>
+        <param name="noise">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNoise">
+      <MemberSignature Language="C#" Value="public void SetNoise (float scale, float scaleU, float scaleV);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scale" Type="System.Single" />
+        <Parameter Name="scaleU" Type="System.Single" />
+        <Parameter Name="scaleV" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="scale">To be added.</param>
+        <param name="scaleU">To be added.</param>
+        <param name="scaleV">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNoiseSeed">
+      <MemberSignature Language="C#" Value="public static void SetNoiseSeed (int seed);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="seed" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="seed">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSpread">
+      <MemberSignature Language="C#" Value="public void SetSpread (float top, float bottom);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="top" Type="System.Single" />
+        <Parameter Name="bottom" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="top">To be added.</param>
+        <param name="bottom">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSurfaceAngle">
+      <MemberSignature Language="C#" Value="public void SetSurfaceAngle (float angleDeg);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="angleDeg" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="angleDeg">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

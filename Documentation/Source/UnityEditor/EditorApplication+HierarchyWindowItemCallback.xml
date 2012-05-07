@@ -1,0 +1,23 @@
+<Type Name="EditorApplication+HierarchyWindowItemCallback" FullName="UnityEditor.EditorApplication+HierarchyWindowItemCallback">
+  <TypeSignature Language="C#" Value="public delegate void EditorApplication.HierarchyWindowItemCallback(int instanceID, Rect selectionRect);" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="instanceID" Type="System.Int32" />
+    <Parameter Name="selectionRect" Type="UnityEngine.Rect" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="instanceID">To be added.</param>
+    <param name="selectionRect">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

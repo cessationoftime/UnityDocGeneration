@@ -1,0 +1,724 @@
+<Type Name="TreeData" FullName="TreeEditor.TreeData">
+  <TypeSignature Language="C#" Value="public class TreeData : UnityEngine.ScriptableObject" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>UnityEngine.ScriptableObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeData ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddGroup">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeGroup AddGroup (TreeEditor.TreeGroup parent, Type type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parent" Type="TreeEditor.TreeGroup" />
+        <Parameter Name="type" Type="System.Type" />
+      </Parameters>
+      <Docs>
+        <param name="parent">To be added.</param>
+        <param name="type">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddNode">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeNode AddNode (TreeEditor.TreeGroup g, TreeEditor.TreeNode parent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+        <Parameter Name="parent" Type="TreeEditor.TreeNode" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <param name="parent">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddNode">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeNode AddNode (TreeEditor.TreeGroup g, TreeEditor.TreeNode parent, bool validate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+        <Parameter Name="parent" Type="TreeEditor.TreeNode" />
+        <Parameter Name="validate" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <param name="parent">To be added.</param>
+        <param name="validate">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="branchGroups">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeGroupBranch[] branchGroups;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeGroupBranch[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckExternalChanges">
+      <MemberSignature Language="C#" Value="public bool CheckExternalChanges ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearReferences">
+      <MemberSignature Language="C#" Value="public void ClearReferences ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteGroup">
+      <MemberSignature Language="C#" Value="public void DeleteGroup (TreeEditor.TreeGroup g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteNode">
+      <MemberSignature Language="C#" Value="public void DeleteNode (TreeEditor.TreeNode n);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="n" Type="TreeEditor.TreeNode" />
+      </Parameters>
+      <Docs>
+        <param name="n">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteNode">
+      <MemberSignature Language="C#" Value="public void DeleteNode (TreeEditor.TreeNode n, bool validate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="n" Type="TreeEditor.TreeNode" />
+        <Parameter Name="validate" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="n">To be added.</param>
+        <param name="validate">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DuplicateGroup">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeGroup DuplicateGroup (TreeEditor.TreeGroup g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DuplicateNode">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeNode DuplicateNode (TreeEditor.TreeNode n);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="n" Type="TreeEditor.TreeNode" />
+      </Parameters>
+      <Docs>
+        <param name="n">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAdaptiveHeightSegments">
+      <MemberSignature Language="C#" Value="public static int GetAdaptiveHeightSegments (float h, float adaptiveQuality);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="h" Type="System.Single" />
+        <Parameter Name="adaptiveQuality" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="h">To be added.</param>
+        <param name="adaptiveQuality">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAdaptiveRadialSegments">
+      <MemberSignature Language="C#" Value="public static int GetAdaptiveRadialSegments (float r, float adaptiveQuality);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="r" Type="System.Single" />
+        <Parameter Name="adaptiveQuality" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="r">To be added.</param>
+        <param name="adaptiveQuality">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAdaptiveSamples">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;float&gt; GetAdaptiveSamples (TreeEditor.TreeGroup group, TreeEditor.TreeNode node, float adaptiveQuality);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="group" Type="TreeEditor.TreeGroup" />
+        <Parameter Name="node" Type="TreeEditor.TreeNode" />
+        <Parameter Name="adaptiveQuality" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="group">To be added.</param>
+        <param name="node">To be added.</param>
+        <param name="adaptiveQuality">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetGroup">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeGroup GetGroup (int id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeGroup</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNode">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeNode GetNode (int id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public void Initialize ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAncestor">
+      <MemberSignature Language="C#" Value="public bool IsAncestor (TreeEditor.TreeGroup ancestor, TreeEditor.TreeGroup g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ancestor" Type="TreeEditor.TreeGroup" />
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+      </Parameters>
+      <Docs>
+        <param name="ancestor">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="isInPreviewMode">
+      <MemberSignature Language="C#" Value="public bool isInPreviewMode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="leafGroups">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeGroupLeaf[] leafGroups;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeGroupLeaf[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockGroup">
+      <MemberSignature Language="C#" Value="public void LockGroup (TreeEditor.TreeGroup g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="materialHash">
+      <MemberSignature Language="C#" Value="public string materialHash;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="mesh">
+      <MemberSignature Language="C#" Value="public UnityEngine.Mesh mesh;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Mesh</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="nodes">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeNode[] nodes;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeNode[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="optimizedCutoutMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material optimizedCutoutMaterial;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="optimizedSolidMaterial">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material optimizedSolidMaterial;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptimizeMaterial">
+      <MemberSignature Language="C#" Value="public bool OptimizeMaterial (System.Collections.Generic.List&lt;TreeEditor.TreeMaterial&gt; materials, System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt; vertices, System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt; triangles);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="materials" Type="System.Collections.Generic.List&lt;TreeEditor.TreeMaterial&gt;" />
+        <Parameter Name="vertices" Type="System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt;" />
+        <Parameter Name="triangles" Type="System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="materials">To be added.</param>
+        <param name="vertices">To be added.</param>
+        <param name="triangles">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviewMesh">
+      <MemberSignature Language="C#" Value="public void PreviewMesh (UnityEngine.Matrix4x4 worldToLocalMatrix, out UnityEngine.Material[] outMaterials);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="worldToLocalMatrix" Type="UnityEngine.Matrix4x4" />
+        <Parameter Name="outMaterials" Type="UnityEngine.Material[]&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="worldToLocalMatrix">To be added.</param>
+        <param name="outMaterials">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="root">
+      <MemberSignature Language="C#" Value="public TreeEditor.TreeGroupRoot root;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TreeEditor.TreeGroupRoot</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetGroupParent">
+      <MemberSignature Language="C#" Value="public void SetGroupParent (TreeEditor.TreeGroup g, TreeEditor.TreeGroup parent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+        <Parameter Name="parent" Type="TreeEditor.TreeGroup" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <param name="parent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNodeParent">
+      <MemberSignature Language="C#" Value="public void SetNodeParent (TreeEditor.TreeNode n, TreeEditor.TreeNode parent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="n" Type="TreeEditor.TreeNode" />
+        <Parameter Name="parent" Type="TreeEditor.TreeNode" />
+      </Parameters>
+      <Docs>
+        <param name="n">To be added.</param>
+        <param name="parent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnlockGroup">
+      <MemberSignature Language="C#" Value="public void UnlockGroup (TreeEditor.TreeGroup g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="TreeEditor.TreeGroup" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDistribution">
+      <MemberSignature Language="C#" Value="public void UpdateDistribution (int id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateFrequency">
+      <MemberSignature Language="C#" Value="public void UpdateFrequency (int id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateMesh">
+      <MemberSignature Language="C#" Value="public void UpdateMesh (UnityEngine.Matrix4x4 worldToLocalMatrix, out UnityEngine.Material[] outMaterials);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="worldToLocalMatrix" Type="UnityEngine.Matrix4x4" />
+        <Parameter Name="outMaterials" Type="UnityEngine.Material[]&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="worldToLocalMatrix">To be added.</param>
+        <param name="outMaterials">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateMesh">
+      <MemberSignature Language="C#" Value="public void UpdateMesh (UnityEngine.Matrix4x4 matrix, System.Collections.Generic.List&lt;TreeEditor.TreeMaterial&gt; materials, System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt; verts, System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt; tris, System.Collections.Generic.List&lt;TreeEditor.TreeAOSphere&gt; aoSpheres, int buildFlags, float adaptiveQuality, float aoDensity);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="matrix" Type="UnityEngine.Matrix4x4" />
+        <Parameter Name="materials" Type="System.Collections.Generic.List&lt;TreeEditor.TreeMaterial&gt;" />
+        <Parameter Name="verts" Type="System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt;" />
+        <Parameter Name="tris" Type="System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt;" />
+        <Parameter Name="aoSpheres" Type="System.Collections.Generic.List&lt;TreeEditor.TreeAOSphere&gt;" />
+        <Parameter Name="buildFlags" Type="System.Int32" />
+        <Parameter Name="adaptiveQuality" Type="System.Single" />
+        <Parameter Name="aoDensity" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="matrix">To be added.</param>
+        <param name="materials">To be added.</param>
+        <param name="verts">To be added.</param>
+        <param name="tris">To be added.</param>
+        <param name="aoSpheres">To be added.</param>
+        <param name="buildFlags">To be added.</param>
+        <param name="adaptiveQuality">To be added.</param>
+        <param name="aoDensity">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateSeed">
+      <MemberSignature Language="C#" Value="public void UpdateSeed (int id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidateReferences">
+      <MemberSignature Language="C#" Value="public void ValidateReferences ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

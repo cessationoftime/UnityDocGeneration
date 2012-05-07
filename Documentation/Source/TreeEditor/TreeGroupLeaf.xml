@@ -1,0 +1,207 @@
+<Type Name="TreeGroupLeaf" FullName="TreeEditor.TreeGroupLeaf">
+  <TypeSignature Language="C#" Value="public class TreeGroupLeaf : TreeEditor.TreeGroup" />
+  <AssemblyInfo>
+    <AssemblyName>UnityEditor</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>TreeEditor.TreeGroup</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TreeGroupLeaf ();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildAOSpheres">
+      <MemberSignature Language="C#" Value="public override void BuildAOSpheres (System.Collections.Generic.List&lt;TreeEditor.TreeAOSphere&gt; aoSpheres);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="aoSpheres" Type="System.Collections.Generic.List&lt;TreeEditor.TreeAOSphere&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="aoSpheres">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanHaveSubGroups">
+      <MemberSignature Language="C#" Value="public override bool CanHaveSubGroups ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="geometryMode">
+      <MemberSignature Language="C#" Value="public int geometryMode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="horizontalAlign">
+      <MemberSignature Language="C#" Value="public float horizontalAlign;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="instanceMesh">
+      <MemberSignature Language="C#" Value="public UnityEngine.GameObject instanceMesh;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.GameObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="materialLeaf">
+      <MemberSignature Language="C#" Value="public UnityEngine.Material materialLeaf;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Material</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="perpendicularAlign">
+      <MemberSignature Language="C#" Value="public float perpendicularAlign;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="size">
+      <MemberSignature Language="C#" Value="public UnityEngine.Vector2 size;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>UnityEngine.Vector2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateMatrix">
+      <MemberSignature Language="C#" Value="public override void UpdateMatrix ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateMesh">
+      <MemberSignature Language="C#" Value="public override void UpdateMesh (System.Collections.Generic.List&lt;TreeEditor.TreeMaterial&gt; materials, System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt; verts, System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt; tris, System.Collections.Generic.List&lt;TreeEditor.TreeAOSphere&gt; aoSpheres, int buildFlags, float adaptiveQuality, float aoDensity);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="materials" Type="System.Collections.Generic.List&lt;TreeEditor.TreeMaterial&gt;" />
+        <Parameter Name="verts" Type="System.Collections.Generic.List&lt;TreeEditor.TreeVertex&gt;" />
+        <Parameter Name="tris" Type="System.Collections.Generic.List&lt;TreeEditor.TreeTriangle&gt;" />
+        <Parameter Name="aoSpheres" Type="System.Collections.Generic.List&lt;TreeEditor.TreeAOSphere&gt;" />
+        <Parameter Name="buildFlags" Type="System.Int32" />
+        <Parameter Name="adaptiveQuality" Type="System.Single" />
+        <Parameter Name="aoDensity" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="materials">To be added.</param>
+        <param name="verts">To be added.</param>
+        <param name="tris">To be added.</param>
+        <param name="aoSpheres">To be added.</param>
+        <param name="buildFlags">To be added.</param>
+        <param name="adaptiveQuality">To be added.</param>
+        <param name="aoDensity">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateParameters">
+      <MemberSignature Language="C#" Value="public override void UpdateParameters ();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

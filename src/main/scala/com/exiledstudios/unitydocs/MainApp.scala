@@ -39,8 +39,8 @@ object MainApp extends App {
   //exec($monodoc_command_2);
 
   // Generate Content from Documentation
-  updateDocumentationSource();
-
+  ParseFirstPass.updateDocumentationSource;
+  /*
   // Combine documentation
   mdassembler_command!
 
@@ -54,4 +54,5 @@ object MainApp extends App {
   moveDir(RELEASE_PATH + "Unity.xml", RELEASE_PATH + "VS/Unity.xml");
 
   ErrorLog.printOut
+  */
 }
