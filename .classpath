@@ -1,0 +1,24 @@
+<classpath>
+  <classpathentry output="target\scala-2.9.1\classes" path="src\main\scala" kind="src"></classpathentry>
+  <classpathentry output="target\scala-2.9.1\classes" path="src\main\java" kind="src"></classpathentry>
+  <classpathentry output="target\scala-2.9.1\test-classes" path="src\test\scala" kind="src"></classpathentry>
+  <classpathentry output="target\scala-2.9.1\test-classes" path="src\test\java" kind="src"></classpathentry>
+  <classpathentry path="org.scala-ide.sdt.launching.SCALA_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.specs2\specs2_2.9.1\jars\specs2_2.9.1-1.7.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.specs2\specs2-scalaz-core_2.9.1\jars\specs2-scalaz-core_2.9.1-6.0.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.scala-tools.testing\scalacheck_2.9.1\jars\scalacheck_2.9.1-1.10-SNAPSHOT.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.scala-tools.testing\test-interface\jars\test-interface-0.5.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.pegdown\pegdown\jars\pegdown-1.1.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.parboiled\parboiled-core\jars\parboiled-core-1.0.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.parboiled\parboiled-java\jars\parboiled-java-1.0.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\asm\asm\jars\asm-3.3.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\asm\asm-util\jars\asm-util-3.3.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\asm\asm-tree\jars\asm-tree-3.3.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\asm\asm-analysis\jars\asm-analysis-3.3.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.mockito\mockito-all\jars\mockito-all-1.9.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\junit\junit\jars\junit-4.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="C:\Users\cvanvranken\.ivy2\cache\org.hamcrest\hamcrest-all\jars\hamcrest-all-1.2-dev1.jar" kind="lib"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="bin" kind="output"></classpathentry>
+</classpath>
